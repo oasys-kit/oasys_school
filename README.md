@@ -1,4 +1,9 @@
-# oasys_school
+# First Oasys School
+
+Dates (tentative)
+=================
+
+15-17 May 2019
 
 
 Scope
