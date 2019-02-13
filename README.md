@@ -29,10 +29,7 @@ This course will enable you to:
 COURSE LENGTH
 =============
 
-The full course is in three days with possibility to follow one, two or three days. The first day covers simulations of source emission (power and flux) and an introduction to simulate a beamline with ray tracing. Day 2 is dedicated to simulate optical systems with wave optics (for coherent light). The Day 3 is a code camp to develop new applications in OASYS. 
-
-
-Course assistants: Juan Reyes, Rafael Celestre, Thibault Vallois. 
+The full course is in three days with possibility to follow one, two or three days. The first day covers simulations of source emission (power and flux) and an introduction to simulate a beamline with ray tracing. Day 2 is dedicated to simulate optical systems with wave optics (for coherent and partially coherent light). The Day 3 is a code camp to develop new applications in OASYS and perform OASYS-related programming. 
 
 
 PROGRAMME
@@ -70,3 +67,8 @@ INSTRUCTORS
 ===========
 
 M Sanchez del Rio (ESRF) and Luca Rebuffi (APS).
+
+
+Course assistants: Juan Reyes, Rafael Celestre, Thibault Vallois. 
+
+
