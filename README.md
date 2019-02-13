@@ -1,12 +1,12 @@
 # First Oasys School
 
-Dates (tentative)
+DATES (tentative)
 =================
 
 15-17 May 2019
 
 
-Scope
+SCOPE
 =====
 The first OASYS course will be a hands-on meeting to exploit the posibilities of the different tools in the OASYS suite. They perform calculations for synchrotron radiation beamlines and associated instruments. It will cover the calculations of the power and flux emitted by the different synchrotron sources, the simulation of complete beamlines using ray tracing and wavefront methods, and the automation of the simulations using python-scripts. It will conclude with a code camp to program new OASYS add-ons and applications. 
 
