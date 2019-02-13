@@ -31,10 +31,6 @@ COURSE LENGTH
 
 The full course is in three days with possibility to follow one, two or three days. The first day covers simulations of source emission (power and flux) and an introduction to simulate a beamline with ray tracing. Day 2 is dedicated to simulate optical systems with wave optics (for coherent light). The Day 3 is a code camp to develop new applications in OASYS. 
 
-INSTRUCTORS
-===========
-
-M Sanchez del Rio (ESRF) and Luca Rebuffi (APS).
 
 Course assistants: Juan Reyes, Rafael Celestre, Thibault Vallois. 
 
@@ -70,3 +66,7 @@ Day 3
 This third day will is a full-day code camp for learning how to create new OASYS widgets and add-ons. It will also serve as a platform for learning how to automize tasks making parametric calculations and perform long runs using scripts that run in a cluster.  
 
 
+INSTRUCTORS
+===========
+
+M Sanchez del Rio (ESRF) and Luca Rebuffi (APS).
