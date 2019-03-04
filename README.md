@@ -1,16 +1,16 @@
 # First Oasys School
 
-DATES (tentative)
-=================
+DATES
+=====
 
 15-17 May 2019
 
 
 SCOPE
 =====
-The first OASYS course will be a hands-on meeting to exploit the posibilities of the different tools in the OASYS suite. They perform calculations for synchrotron radiation beamlines and associated instruments. It will cover the calculations of the power and flux emitted by the different synchrotron sources, the simulation of complete beamlines using ray tracing and wavefront methods, and the automation of the simulations using python-scripts. It will conclude with a code camp to program new OASYS add-ons and applications. 
+The first OASYS school will be a hands-on meeting to fully exploit the posibilities of the different tools in the OASYS suite. They perform full simulations on synchrotron radiation beamlines and associated instruments. The school will cover the calculations of the power and flux emitted by the different synchrotron sources, the simulation of complete beamlines using ray tracing and wavefront methods, and the automation of the simulations using python-scripts. It will conclude with a code camp to lear how to program new OASYS add-ons and applications. 
 
-Audience is typically composed scientists, engineers, technicians, or managers who wish to learn more about simulations in x-ray optics applied to synchrotron instrumentation. In particular they will learn to understand and compute the characteristics of a synchrotron beam, simulate the optical performance of a beamline, and apply new tools to simulate partial coherent beams. 
+Audience is typically composed scientists, engineers, technicians, or managers who wish to learn more about simulations in x-ray optics applied to synchrotron instrumentation using OASYS. In particular, they will understand the characteristics of a synchrotron beam and obtain quantitative information on emitted flux and power, simulate the optical performance of a beamline, and apply a variety of tools to simulate partial coherent beams. 
 
 LEARNING OUTCOMES
 =================
@@ -18,18 +18,18 @@ LEARNING OUTCOMES
 This course will enable you to:
 
 - describe/import the beamline elements in terms of the SYNED containers
-- Calculate power and flux emitted by synchrotron (white) sources and affecting the optical elements
-- Combine the role of rays and wavefronts to describe synchrotron radiation by ray tracing and wavefront propagation. Be familiar with SHADOW, WOFRY and SRW.
-- Quantify the beam characteristics (flux, dimensions, intensity profiles) and in optical images from geometrical and synchrotron sources
-- Transfer coherence into and throughout optical systems using Monte Carlo methods (SRW) and coherence mode decomposition (COMSYL). 
-- Automize tasks and perform long calculations using python scripts. 
-- Learn how to extend OASYS functionality writing new widges and new applications. 
+- calculate power and flux emitted by synchrotron (white) sources and affecting the optical elements
+- select and combine rays and wavefronts to describe synchrotron radiation by ray tracing and wavefront propagation, respectively. Be familiar with SHADOW, WOFRY and SRW.
+- quantify the beam characteristics (flux, dimensions, intensity profiles) and compute optical images from geometrical and synchrotron sources
+- transfer coherence into and throughout optical systems using Monte Carlo methods (SRW) and coherence mode decomposition (COMSYL). 
+- automize tasks and perform long calculations using python scripts. 
+- learn how to extend OASYS functionality writing new widges and new applications. 
 
 
 COURSE LENGTH
 =============
 
-The full course is in three days with possibility to follow one, two or three days. The first day covers simulations of source emission (power and flux) and an introduction to simulate a beamline with ray tracing. Day 2 is dedicated to simulate optical systems with wave optics (for coherent and partially coherent light). The Day 3 is a code camp to develop new applications in OASYS and perform OASYS-related programming. 
+The full course is in three days with possibility to follow one, two or three days. The first day covers simulations of source emission (power and flux) and an introduction to simulate a beamline with ray tracing. Day 2 is dedicated to simulate optical systems with wave optics for coherent and partially coherent sources. The Day 3 is a code camp to develop new applications in OASYS and perform OASYS-related programming. 
 
 
 PROGRAMME
@@ -69,6 +69,6 @@ INSTRUCTORS
 M Sanchez del Rio (ESRF) and Luca Rebuffi (APS).
 
 
-Course assistants: Juan Reyes, Rafael Celestre, Thibault Vallois. 
+Course assistants: Xianbo Shi, Juan Reyes and Rafael Celestre. 
 
 
