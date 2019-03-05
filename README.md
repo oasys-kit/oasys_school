@@ -69,6 +69,6 @@ INSTRUCTORS
 M Sanchez del Rio (ESRF) and Luca Rebuffi (APS).
 
 
-Course assistants: Xianbo Shi, Juan Reyes and Rafael Celestre. 
+Course assistants: Xianbo Shi (APS), Juan Reyes (ESRF) and Rafael Celestre (ESRF). 
 
 
