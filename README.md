@@ -1,4 +1,4 @@
-# First Oasys School
+# First OASYS School
 
 DATES
 =====
