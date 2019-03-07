@@ -3,7 +3,7 @@
 DATES
 =====
 
-15-17 May 2019
+Tue 14-Thu 16 May 2019~~15-17 May 2019~~
 
 
 SCOPE
