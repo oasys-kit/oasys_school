@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="xoppy tutorial" title="xoppy tutorial" version="2.0" working_directory="/Users/srio/OASYS1.1/oasys_school/session1.1_xoppy" workspace_units="0">
 	<nodes>
-		<node id="0" name="BM" position="(-331.0, 104.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.bm.OWbm" title="BM" version="" />
+		<node id="0" name="BM" position="(-312.0, 109.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.bm.OWbm" title="BM" version="" />
 		<node id="1" name="WIGGLER" position="(-323.0, 238.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="WIGGLER" version="" />
 		<node id="2" name="WS" position="(-185.0, 245.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.ws.OWws" title="WS" version="" />
 		<node id="3" name="WIGGLER" position="(-315.0, 338.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="WIGGLER (external B)" version="" />
@@ -18,6 +18,7 @@
 		<node id="14" name="Xraylib" position="(-290.0, 1497.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xraylib_widget.OWxraylib_widget" title="Xraylib" version="" />
 		<node id="15" name="XCOM" position="(-187.0, 1496.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xxcom.OWxxcom" title="XCOM" version="" />
 		<node id="16" name="MARE" position="(-84.0, 1499.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.mare.OWmare" title="MARE" version="" />
+		<node id="17" name="Python Script" position="(-142.0, 108.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (1)" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="in_object_1" sink_node_id="11" source_channel="xoppy_data" source_node_id="9" />
@@ -38,17 +39,18 @@
 	</annotations>
 	<thumbnail />
 	<node_properties>
-		<properties format="pickle" node_id="0">gAN9cQAoWA8AAABCRUFNX0VORVJHWV9HRVZxAUdAGAAAAAAAAFgIAAAAQkZJRUxEX1RxAkc/6ZmZ
-mZmZmlgJAAAAQ1VSUkVOVF9BcQNHP8mZmZmZmZpYCQAAAEZJTEVfRFVNUHEESwBYDAAAAEhPUl9E
-SVZfTVJBRHEFR0AkAAAAAAAAWAoAAABMT0dfQ0hPSUNFcQZLAVgMAAAATUFDSElORV9OQU1FcQdY
-EwAAAEVTUkYgYmVuZGluZyBtYWduZXRxCFgLAAAATUFDSElORV9SX01xCUdAOQAAAAAAAFgHAAAA
-TlBPSU5UU3EKTfQBWA8AAABQSE9UX0VORVJHWV9NQVhxC0dA+GoAAAAAAFgPAAAAUEhPVF9FTkVS
+		<properties format="pickle" node_id="0">gAN9cQAoWA8AAABCRUFNX0VORVJHWV9HRVZxAUdAGCj1wo9cKVgIAAAAQkZJRUxEX1RxAkc/6ZmZ
+mZmZmlgJAAAAQ1VSUkVOVF9BcQNHP8mZmZmZmZpYCQAAAEZJTEVfRFVNUHEESwFYDAAAAEhPUl9E
+SVZfTVJBRHEFRz/wAAAAAAAAWAoAAABMT0dfQ0hPSUNFcQZLAFgMAAAATUFDSElORV9OQU1FcQdY
+EwAAAEVTUkYgYmVuZGluZyBtYWduZXRxCFgLAAAATUFDSElORV9SX01xCUdAOTMzMzMzM1gHAAAA
+TlBPSU5UU3EKTfQBWA8AAABQSE9UX0VORVJHWV9NQVhxC0dA+HBAAAAAAFgPAAAAUEhPVF9FTkVS
 R1lfTUlOcQxHQFkAAAAAAABYBwAAAFBTSV9NQVhxDUc/8AAAAAAAAFgHAAAAUFNJX01JTnEOR7/w
 AAAAAAAAWA0AAABQU0lfTVJBRF9QTE9UcQ9HP/AAAAAAAABYCwAAAFBTSV9OUE9JTlRTcRBN9AFY
-CQAAAFJCX0NIT0lDRXERSwBYCQAAAFRZUEVfQ0FMQ3ESSwNYBwAAAFZFUl9ESVZxE0sCWBMAAABz
+CQAAAFJCX0NIT0lDRXERSwBYCQAAAFRZUEVfQ0FMQ3ESSwBYBwAAAFZFUl9ESVZxE0sAWBMAAABz
 YXZlZFdpZGdldEdlb21ldHJ5cRRjUHlRdDUuc2lwCl91bnBpY2tsZV90eXBlCnEVWAwAAABQeVF0
-NS5RdENvcmVxFlgKAAAAUUJ5dGVBcnJheXEXQzIB2dDLAAIAAAAAADwAAAA8AAAFYwAAAw0AAAA8
-AAAAUgAABWMAAAMNAAAAAAAAAAAFoHEYhXEZh3EaUnEbWAkAAAB2aWV3X3R5cGVxHEsBdS4=
+NS5RdENvcmVxFlgKAAAAUUJ5dGVBcnJheXEXQ0IB2dDLAAMAAAAAAOwAAABIAAAGEwAAAxkAAADs
+AAAAXgAABhMAAAMZAAAAAAAAAAAFoAAAAOwAAABeAAAGEwAAAxlxGIVxGYdxGlJxG1gJAAAAdmll
+d190eXBlcRxLAXUu
 </properties>
 		<properties format="literal" node_id="1">{'CURRENT': 200.0, 'ENERGY': 6.04, 'FIELD': 0, 'FILE': '?', 'K': 14.0, 'NPERIODS': 12, 'NPOINTS': 100, 'NTRAJPOINTS': 101, 'PHOT_ENERGY_MAX': 100100.0, 'PHOT_ENERGY_MIN': 100.0, 'ULAMBDA': 0.125, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
 		<properties format="literal" node_id="2">{'CUR': 100.0, 'D': 30.0, 'EMAX': 200000.0, 'EMIN': 1000.0, 'ENERGY': 7.0, 'KX': 0.0, 'KY': 8.74, 'N': 28, 'NEE': 500, 'NXP': 10, 'NYP': 10, 'PERIOD': 8.5, 'XPC': 0.0, 'XPS': 2.0, 'YPC': 0.0, 'YPS': 2.0, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
@@ -72,8 +74,26 @@ cGxpdHRlclN0YXRlcRdOdS4=
 </properties>
 		<properties format="literal" node_id="12">{'ANISOTROPY': 0, 'ASYMMETRY_ANGLE': 0.0, 'CRYSTAL_MATERIAL': 32, 'CUT': '2 -1 -1 ; 1 1 1 ; 0 0 0', 'ENERGY': 8000.0, 'FILECOMPLIANCE': 'mycompliance.dat', 'GEOMETRY': 0, 'MILLER_INDEX_H': 1, 'MILLER_INDEX_K': 1, 'MILLER_INDEX_L': 1, 'MOSAIC': 0, 'MOSAIC_FWHM': 0.1, 'POISSON': 0.22, 'RMER': 1290.0, 'RSAG': 125.0, 'SCAN': 2, 'SCANFROM': -100.0, 'SCANPOINTS': 200, 'SCANTO': 100.0, 'TEMPER': '1.0', 'THICKNESS': 0.7, 'UNIT': 1, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
 		<properties format="literal" node_id="13">{'ENERGY': 8050.0, 'EVEN_MATERIAL': 'W', 'EVEN_THICKNESS': 25.0, 'F12_FLAG': 0, 'FILE': 'layers.dat', 'MODE': 0, 'NLAYERS': 50, 'NPOINTS': 600, 'ODD_MATERIAL': 'Si', 'ODD_THICKNESS': 25.0, 'SCAN': 0, 'SCAN_STEP': 0.01, 'SUBSTRATE': 'Si', 'THETA': 0.0, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
-		<properties format="literal" node_id="14">{'COMPOUND': 'Ca5(PO4)3', 'ELEMENT': 26, 'ELEMENTORCOMPOUND': 'FeSO4', 'ENERGY': 10.0, 'FUNCTION': 0, 'SHELL': 0, 'TRANSITION_IUPAC_FROM': 0, 'TRANSITION_IUPAC_OR_SIEGBAHN': 1, 'TRANSITION_IUPAC_TO': 0, 'TRANSITION_SIEGBAHN': 0, 'savedWidgetGeometry': None}</properties>
+		<properties format="pickle" node_id="14">gAN9cQAoWAgAAABDT01QT1VORHEBWAkAAABDYTUoUE80KTNxAlgHAAAARUxFTUVOVHEDS1BYEQAA
+AEVMRU1FTlRPUkNPTVBPVU5EcQRYBQAAAEZlU080cQVYBgAAAEVORVJHWXEGR0AkAAAAAAAAWAgA
+AABGVU5DVElPTnEHSwpYBQAAAFNIRUxMcQhLAFgVAAAAVFJBTlNJVElPTl9JVVBBQ19GUk9NcQlL
+AFgcAAAAVFJBTlNJVElPTl9JVVBBQ19PUl9TSUVHQkFITnEKSwFYEwAAAFRSQU5TSVRJT05fSVVQ
+QUNfVE9xC0sAWBMAAABUUkFOU0lUSU9OX1NJRUdCQUhOcQxLAFgTAAAAc2F2ZWRXaWRnZXRHZW9t
+ZXRyeXENY1B5UXQ1LnNpcApfdW5waWNrbGVfdHlwZQpxDlgMAAAAUHlRdDUuUXRDb3JlcQ9YCgAA
+AFFCeXRlQXJyYXlxEEMyAdnQywACAAAAAABIAAAAFwAAAwMAAALoAAAASAAAAC0AAAMDAAAC6AAA
+AAACAAAABaBxEYVxEodxE1JxFHUu
+</properties>
 		<properties format="literal" node_id="15">{'DESCRIPTION': 'SiO2:B2O3:Na2O:Al2O3:K2O', 'ELEMENTOUTPUT': 0, 'FRACTION': '0.807:0.129:0.038:0.022:0.004', 'GRID': 1, 'GRIDDATA': '0.0804:0.2790:0.6616:1.3685:2.7541', 'GRIDINPUT': 0, 'NAME': 'Pyrex Glass', 'SUBSTANCE': 3, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
 		<properties format="literal" node_id="16">{'CRYSTAL': 2, 'DELTALAMBDA': 0.01, 'DELTAPHI': 0.1, 'DISPLAY': 0, 'FHEDGE': 1e-08, 'H': 2, 'HMAX': 3, 'K': 2, 'KMAX': 3, 'L': 2, 'LAMBDA': 1.54, 'LMAX': 3, 'PHI': -20.0, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
+		<properties format="pickle" node_id="17">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYhYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwFYCQAA
+AGZvbnRfc2l6ZXEDSwRYEQAAAGxpYnJhcnlMaXN0U291cmNlcQRdcQVjb2FzeXMud2lkZ2V0cy50
+b29scy5vd19weXRob25fc2NyaXB0ClNjcmlwdApxBimBcQd9cQgoWAQAAABuYW1lcQlYCgAAAE5l
+dyBzY3JpcHRxClgGAAAAc2NyaXB0cQtYPwAAAGJlYW0gPSBpbl9vYmplY3RfMS5fYmVhbQoKdCA9
+IGJlYW0uaGlzdG8xKDExKQoKcHJpbnQodFsiZndobSJdKXEMWAUAAABmbGFnc3ENSwBYCAAAAGZp
+bGVuYW1lcQ5OdWJhWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQ9jUHlRdDUuc2lwCl91bnBpY2ts
+ZV90eXBlCnEQWAwAAABQeVF0NS5RdENvcmVxEVgKAAAAUUJ5dGVBcnJheXESQ0IB2dDLAAMAAAAA
+AvwAAAAjAAAGGwAAApAAAAL8AAAAOQAABhsAAAKQAAAAAAAAAAAFoAAAAvwAAAA5AAAGGwAAApBx
+E4VxFIdxFVJxFlgNAAAAc3BsaXR0ZXJTdGF0ZXEXTnUu
+</properties>
 	</node_properties>
 </scheme>
