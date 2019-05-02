@@ -1,37 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme description="xoppy tutorial" title="xoppy tutorial" version="2.0" working_directory="/Users/srio/Oasys" workspace_units="0">
+<scheme description="xoppy tutorial" title="xoppy tutorial" version="2.0" working_directory="/users/srio/OASYS1.1d/oasys_school/session1.1_xoppy" workspace_units="0">
 	<nodes>
 		<node id="0" name="BM" position="(-478.0, 96.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.bm.OWbm" title="BM" version="" />
-		<node id="1" name="WIGGLER" position="(-265.0, 216.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="WIGGLER" version="" />
-		<node id="2" name="WS" position="(-265.0, 294.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.ws.OWws" title="WS" version="" />
-		<node id="3" name="WIGGLER" position="(-262.0, 366.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="WIGGLER (external B)" version="" />
+		<node id="1" name="WIGGLER" position="(-265.0, 197.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="WIGGLER" version="" />
+		<node id="2" name="WS" position="(-265.0, 284.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.ws.OWws" title="WS" version="" />
+		<node id="3" name="WIGGLER" position="(-265.0, 367.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="WIGGLER (external B)" version="" />
 		<node id="4" name="Undulator Spectrum" position="(-253.0, 581.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" title="Undulator Spectrum" version="" />
-		<node id="5" name="Undulator Radiation" position="(-264.0, 941.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" title="Undulator Radiation" version="" />
+		<node id="5" name="Undulator Radiation" position="(-242.0, 986.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" title="Undulator Radiation" version="" />
 		<node id="6" name="POWER" position="(10.0, 577.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xpower.OWxpower" title="POWER" version="" />
-		<node id="7" name="POWER3D" position="(132.0, 902.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3D.OWpower3D" title="POWER3D" version="" />
-		<node id="8" name="CRYSTAL" position="(-469.0, 1061.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL" version="" />
-		<node id="9" name="CRYSTAL" position="(-462.0, 1139.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL (1)" version="" />
-		<node id="10" name="Python Script" position="(-287.0, 1104.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script" version="" />
-		<node id="11" name="CRYSTAL" position="(-461.0, 1228.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL (1) (1)" version="" />
+		<node id="7" name="POWER3D" position="(280.0, 839.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3D.OWpower3D" title="POWER3D" version="" />
+		<node id="8" name="CRYSTAL" position="(-473.0, 1117.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL" version="" />
+		<node id="9" name="CRYSTAL" position="(-466.0, 1195.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL (1)" version="" />
+		<node id="10" name="Python Script" position="(-265.0, 1156.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script" version="" />
+		<node id="11" name="CRYSTAL" position="(-465.0, 1284.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL (1) (1)" version="" />
 		<node id="12" name="MLayer" position="(-453.0, 1548.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.mlayer.OWmlayer" title="MLayer" version="" />
 		<node id="13" name="Xraylib" position="(-445.0, 1699.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xraylib_widget.OWxraylib_widget" title="Xraylib" version="" />
 		<node id="14" name="XCOM" position="(-342.0, 1698.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xxcom.OWxxcom" title="XCOM" version="" />
 		<node id="15" name="MARE" position="(-239.0, 1701.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.mare.OWmare" title="MARE" version="" />
-		<node id="16" name="Python Script" position="(-99.0, 96.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script" version="" />
+		<node id="16" name="Python Script" position="(-95.0, 106.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (plot 3 runs)" version="" />
 		<node id="17" name="Undulator Light Source" position="(-477.0, 474.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source U18 EBS" version="" />
 		<node id="18" name="Undulator Light Source" position="(-476.0, 572.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source U18 (HB ESRF)" version="" />
-		<node id="19" name="Undulator Power Density" position="(-247.0, 809.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_power_density.OWundulator_power_density" title="Undulator Power Density" version="" />
-		<node id="20" name="Python Script" position="(-152.0, 935.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (3)" version="" />
+		<node id="19" name="Undulator Power Density" position="(-248.0, 843.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_power_density.OWundulator_power_density" title="Undulator Power Density" version="" />
+		<node id="20" name="Python Script" position="(-127.0, 972.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (3)" version="" />
 		<node id="21" name="CRYSTAL" position="(-455.0, 1383.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL (1) (1) (1)" version="" />
 		<node id="22" name="Python Script" position="(-33.0, 1687.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (ANSYS to Surface File)" version="" />
 		<node id="23" name="TC-SLIT" position="(-262.0, 483.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.tc_slit.OWtc_slit" title="TC-SLIT" version="" />
 		<node id="24" name="Python Script" position="(127.0, 1693.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (Monochromator flux)" version="" />
-		<node id="25" name="Undulator Radiation" position="(37.0, 894.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" title="Undulator Radiation (1)" version="" />
-		<node id="26" name="HDF5 File Reader" position="(35.0, 982.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_hdf5_file_reader.OWHDF5FileReader" title="HDF5 File Reader" version="" />
+		<node id="25" name="Undulator Radiation" position="(150.0, 838.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" title="Undulator Radiation (1)" version="" />
+		<node id="26" name="HDF5 File Reader" position="(-3.0, 954.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_hdf5_file_reader.OWHDF5FileReader" title="HDF5 File Reader" version="" />
 		<node id="27" name="CRYSTAL" position="(-49.0, 1095.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL (2)" version="" />
 		<node id="28" name="Wiggler Light Source" position="(-479.0, 238.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_wiggler_light_source.OWWigglerLightSource" title="Wiggler Light Source (ID17 EBS)" version="" />
-		<node id="29" name="Python Script" position="(-95.0, 252.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (1)" version="" />
+		<node id="29" name="Python Script" position="(-90.0, 259.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (1)" version="" />
 		<node id="30" name="Undulator Light Source" position="(-468.0, 680.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source U18 (LB ESRF) (K modified!!)" version="" />
+		<node id="31" name="HDF5 File Reader" position="(-102.0, 842.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_hdf5_file_reader.OWHDF5FileReader" title="HDF5 File Reader (1)" version="" />
+		<node id="32" name="Python Script" position="(22.0, 839.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (2)" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="in_object_1" sink_node_id="10" source_channel="xoppy_data" source_node_id="8" />
@@ -49,11 +51,11 @@
 		<text font-family="Helvetica" font-size="16" id="0" rect="(-529.0, 23.0, 233.0, 49.0)">ex1: Bending Magnets</text>
 		<text font-family="Helvetica" font-size="16" id="1" rect="(-529.0, 174.0, 150.0, 28.0)">ex2 Wigglers</text>
 		<text font-family="Helvetica" font-size="16" id="2" rect="(-532.0, 414.0, 328.0, 60.0)">ex3: Undulator spectrum (emission vs E)</text>
-		<text font-family="Helvetica" font-size="16" id="3" rect="(-532.0, 770.0, 173.0, 36.0)">ex4: Undulator power</text>
-		<text font-family="Helvetica" font-size="16" id="4" rect="(-529.0, 869.0, 401.0, 60.0)">ex5: Undulator emission vs (x,y,energy)</text>
+		<text font-family="Helvetica" font-size="16" id="3" rect="(-518.0, 784.0, 173.0, 36.0)">ex4: Undulator power</text>
+		<text font-family="Helvetica" font-size="16" id="4" rect="(-525.0, 894.0, 401.0, 60.0)">ex5: Undulator emission vs (x,y,energy)</text>
 		<text font-family="Helvetica" font-size="16" id="5" rect="(-88.0, 418.0, 238.0, 44.0)">ex6.1: Attenuators and mirrors</text>
-		<text font-family="Helvetica" font-size="16" id="6" rect="(-62.0, 822.0, 227.0, 44.0)">ex6.2 Attenuators and mirrors</text>
-		<text font-family="Helvetica" font-size="16" id="7" rect="(-542.0, 990.0, 226.0, 44.0)">ex7: Crystal monochromators</text>
+		<text font-family="Helvetica" font-size="16" id="6" rect="(106.0, 761.0, 227.0, 44.0)">ex6.2 Attenuators and mirrors</text>
+		<text font-family="Helvetica" font-size="16" id="7" rect="(-528.0, 1092.0, 226.0, 44.0)">ex7: Crystal monochromators</text>
 		<text font-family="Helvetica" font-size="16" id="8" rect="(-524.0, 1302.0, 150.0, 36.0)">ex8: Bent crystals</text>
 		<text font-family="Helvetica" font-size="16" id="9" rect="(-521.0, 1480.0, 150.0, 36.0)">ex9: Multilayers </text>
 		<text font-family="Helvetica" font-size="16" id="10" rect="(-517.0, 1629.0, 351.0, 60.0)">ex10: Other XOPPY applications </text>
@@ -78,9 +80,9 @@ SUVMRHEDSwBYBAAAAEZJTEVxBFgBAAAAP3EFWAEAAABLcQZHQDUD1wo9cKRYCAAAAE5QRVJJT0RT
 cQdLClgHAAAATlBPSU5UU3EIS2RYCwAAAE5UUkFKUE9JTlRTcQlLZVgPAAAAUEhPVF9FTkVSR1lf
 TUFYcQpHQRJREAAAAABYDwAAAFBIT1RfRU5FUkdZX01JTnELR0BZAAAAAAAAWAcAAABVTEFNQkRB
 cQxHP8MzMzMzMzNYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxDWNQeVF0NS5zaXAKX3VucGlja2xl
-X3R5cGUKcQ5YDAAAAFB5UXQ1LlF0Q29yZXEPWAoAAABRQnl0ZUFycmF5cRBDQgHZ0MsAAwAAAAAA
-eAAAAHoAAAWfAAADSwAAAHgAAACQAAAFnwAAA0sAAAAAAgAAAAWgAAAAeAAAAJAAAAWfAAADS3ER
-hXESh3ETUnEUWAkAAAB2aWV3X3R5cGVxFUsBdS4=
+X3R5cGUKcQ5YDAAAAFB5UXQ1LlF0Q29yZXEPWAoAAABRQnl0ZUFycmF5cRBDMgHZ0MsAAgAAAAAA
+VAAAADQAAAV7AAADCwAAAFQAAABQAAAFewAAAwsAAAAAAAAAAAaQcRGFcRKHcRNScRRYCQAAAHZp
+ZXdfdHlwZXEVSwF1Lg==
 </properties>
 		<properties format="pickle" node_id="2">gAN9cQAoWAMAAABDVVJxAUdAaQAAAAAAAFgBAAAARHECR0A+AAAAAAAAWAQAAABFTUFYcQNHQRJP
 gAAAAABYBAAAAEVNSU5xBEdAWQAAAAAAAFgGAAAARU5FUkdZcQVHQBgAAAAAAABYAgAAAEtYcQZH
@@ -215,7 +217,7 @@ AAACAAAABaBxEYVxEodxE1JxFHUu
 </properties>
 		<properties format="literal" node_id="14">{'DESCRIPTION': 'SiO2:B2O3:Na2O:Al2O3:K2O', 'ELEMENTOUTPUT': 0, 'FRACTION': '0.807:0.129:0.038:0.022:0.004', 'GRID': 1, 'GRIDDATA': '0.0804:0.2790:0.6616:1.3685:2.7541', 'GRIDINPUT': 0, 'NAME': 'Pyrex Glass', 'SUBSTANCE': 3, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
 		<properties format="literal" node_id="15">{'CRYSTAL': 2, 'DELTALAMBDA': 0.01, 'DELTAPHI': 0.1, 'DISPLAY': 0, 'FHEDGE': 1e-08, 'H': 2, 'HMAX': 3, 'K': 2, 'KMAX': 3, 'L': 2, 'LAMBDA': 1.54, 'LMAX': 3, 'PHI': -20.0, 'savedWidgetGeometry': None, 'view_type': 1}</properties>
-		<properties format="pickle" node_id="16">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYhYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwFYCQAA
+		<properties format="pickle" node_id="16">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYhYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwBYCQAA
 AGZvbnRfc2l6ZXEDSwRYEQAAAGxpYnJhcnlMaXN0U291cmNlcQRdcQVjb2FzeXMud2lkZ2V0cy50
 b29scy5vd19weXRob25fc2NyaXB0ClNjcmlwdApxBimBcQd9cQgoWAQAAABuYW1lcQlYCQAAAGV4
 MV9ibS5weXEKWAYAAABzY3JpcHRxC1ibBgAACgpkZWYgcnVuX2JtKEJGSUVMRF9UPTAuODU2KToK
@@ -251,9 +253,8 @@ dGxlPSJGbHV4IFtwaC9zLzAuMVwlYnciLGxlZ2VuZD1bIkI9MC44NTZUIiwiQj0wLjU1VCIsIkI9
 MC40VCJdKQpxDFgFAAAAZmxhZ3NxDUsAWAgAAABmaWxlbmFtZXEOWDwAAAAvVXNlcnMvc3Jpby9P
 QVNZUzEuMS9vYXN5c19zY2hvb2wvc2Vzc2lvbjEuMV94b3BweS9leDFfYm0ucHlxD3ViYVgTAAAA
 c2F2ZWRXaWRnZXRHZW9tZXRyeXEQY1B5UXQ1LnNpcApfdW5waWNrbGVfdHlwZQpxEVgMAAAAUHlR
-dDUuUXRDb3JlcRJYCgAAAFFCeXRlQXJyYXlxE0NCAdnQywADAAAAAAFAAAAAbAAABF8AAALZAAAB
-QAAAAIIAAARfAAAC2QAAAAAAAAAABaAAAAFAAAAAggAABF8AAALZcRSFcRWHcRZScRdYDQAAAHNw
-bGl0dGVyU3RhdGVxGE51Lg==
+dDUuUXRDb3JlcRJYCgAAAFFCeXRlQXJyYXlxE0MyAdnQywACAAAAAAg+AAABDQAAC10AAAOAAAAI
+PgAAASkAAAtdAAADgAAAAAEAAAAABpBxFIVxFYdxFlJxF1gNAAAAc3BsaXR0ZXJTdGF0ZXEYTnUu
 </properties>
 		<properties format="pickle" node_id="17">gAN9cQAoWAwAAABLX2hvcml6b250YWxxAUcAAAAAAAAAAFgKAAAAS192ZXJ0aWNhbHECRz/3q9oN
 /e+FWBoAAABlbGVjdHJvbl9iZWFtX2RpdmVyZ2VuY2VfaHEDY251bXB5LmNvcmUubXVsdGlhcnJh
@@ -299,17 +300,17 @@ UE1VMThfMS5qc29ucTFYEgAAAHR5cGVfb2ZfcHJvcGVydGllc3EySwB1Lg==
 SHECRz7SUlRsARqzWBcAAABFTEVDVFJPTkJFQU1ESVZFUkdFTkNFVnEDRz63EX5/ekUpWBEAAABF
 TEVDVFJPTkJFQU1TSVpFSHEERz7/plkysLM6WBEAAABFTEVDVFJPTkJFQU1TSVpFVnEFRz7OgSGK
 B7sTWA8AAABFTEVDVFJPTkNVUlJFTlRxBkc/yZmZmZmZmlgOAAAARUxFQ1RST05FTkVSR1lxB0dA
-GAAAAAAAAFgUAAAARUxFQ1RST05FTkVSR1lTUFJFQURxCEc/TpXXwx/6x1gEAAAAR0FQSHEJRz9o
-k3S8an76WAQAAABHQVBWcQpHP2iTdLxqfvpYDAAAAEg1X0ZJTEVfRFVNUHELSwBYCwAAAEhTTElU
-UE9JTlRTcQxLKVgCAAAAS1ZxDUc/96vaDf3vhVgJAAAATUFTS19GTEFHcQ5LAFgKAAAATUFTS19I
-X01BWHEPR0CPQAAAAAAAWAoAAABNQVNLX0hfTUlOcRBHwI9AAAAAAABYDgAAAE1BU0tfUk9UX0hf
-REVHcRFHAAAAAAAAAABYDgAAAE1BU0tfUk9UX1ZfREVHcRJHAAAAAAAAAABYCgAAAE1BU0tfVl9N
-QVhxE0dAj0AAAAAAAFgKAAAATUFTS19WX01JTnEUR8CPQAAAAAAAWAYAAABNRVRIT0RxFUsCWAgA
+GAAAAAAAAFgUAAAARUxFQ1RST05FTkVSR1lTUFJFQURxCEc/TpXXwx/6x1gEAAAAR0FQSHEJRz+E
+euFHrhR7WAQAAABHQVBWcQpHP4R64UeuFHtYDAAAAEg1X0ZJTEVfRFVNUHELSwFYCwAAAEhTTElU
+UE9JTlRTcQxLUVgCAAAAS1ZxDUc/96vaDf3vhVgJAAAATUFTS19GTEFHcQ5LAFgKAAAATUFTS19I
+X01BWHEPR0BJAAAAAAAAWAoAAABNQVNLX0hfTUlOcRBHwEkAAAAAAABYDgAAAE1BU0tfUk9UX0hf
+REVHcRFHQFZ0/fO2RaJYDgAAAE1BU0tfUk9UX1ZfREVHcRJHAAAAAAAAAABYCgAAAE1BU0tfVl9N
+QVhxE0dAb0AAAAAAAFgKAAAATUFTS19WX01JTnEUR8BvQAAAAAAAWAYAAABNRVRIT0RxFUsCWAgA
 AABOUEVSSU9EU3EWS29YCAAAAFBFUklPRElEcRdHP5Jul41P3zxYDQAAAFVTRUVNSVRUQU5DRVNx
-GEsBWAsAAABWU0xJVFBPSU5UU3EZSylYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxGmNQeVF0NS5z
+GEsBWAsAAABWU0xJVFBPSU5UU3EZS1FYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxGmNQeVF0NS5z
 aXAKX3VucGlja2xlX3R5cGUKcRtYDAAAAFB5UXQ1LlF0Q29yZXEcWAoAAABRQnl0ZUFycmF5cR1D
-QgHZ0MsAAwAAAAAAVAAAADoAAAV7AAADCwAAAFQAAABQAAAFewAAAwsAAAAAAgAAAAWgAAAAVAAA
-AFAAAAV7AAADC3EehXEfh3EgUnEhWAkAAAB2aWV3X3R5cGVxIksBdS4=
+MgHZ0MsAAgAAAAAAVAAAAFAAAAV7AAADJwAAAFQAAABsAAAFewAAAycAAAAAAAAAAAaQcR6FcR+H
+cSBScSFYCQAAAHZpZXdfdHlwZXEiSwF1Lg==
 </properties>
 		<properties format="pickle" node_id="20">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYhYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwFYCQAA
 AGZvbnRfc2l6ZXEDSwRYEQAAAGxpYnJhcnlMaXN0U291cmNlcQRdcQVjb2FzeXMud2lkZ2V0cy50
@@ -558,7 +559,7 @@ U19IUFcxNTBfMnEvWA8AAABzeW5lZF9maWxlX25hbWVxMFhNAAAAaHR0cDovL2Z0cC5lc3JmLmV1
 L3B1Yi9zY2lzb2Z0L3N5bmVkL2xpZ2h0c291cmNlcy9FU1JGX0lEMTdfRUJTX0hQVzE1MF8yLmpz
 b25xMVgSAAAAdHlwZV9vZl9wcm9wZXJ0aWVzcTJLAHUu
 </properties>
-		<properties format="pickle" node_id="29">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYhYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwFYCQAA
+		<properties format="pickle" node_id="29">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYhYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwBYCQAA
 AGZvbnRfc2l6ZXEDSwRYEQAAAGxpYnJhcnlMaXN0U291cmNlcQRdcQVjb2FzeXMud2lkZ2V0cy50
 b29scy5vd19weXRob25fc2NyaXB0ClNjcmlwdApxBimBcQd9cQgoWAQAAABuYW1lcQlYDgAAAGV4
 Ml93aWdnbGVyLnB5cQpYBgAAAHNjcmlwdHELWAMCAAAKCgoKCnByaW50KGRpcihpbl9vYmplY3Rf
@@ -574,8 +575,8 @@ Vl0iLHl0aXRsZT0iRmx1eCBbcGgvcy8wLjFcJWJ3XSIpCnEMWAUAAABmbGFnc3ENSwBYCAAAAGZp
 bGVuYW1lcQ5YQQAAAC9Vc2Vycy9zcmlvL09BU1lTMS4xL29hc3lzX3NjaG9vbC9zZXNzaW9uMS4x
 X3hvcHB5L2V4Ml93aWdnbGVyLnB5cQ91YmFYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxEGNQeVF0
 NS5zaXAKX3VucGlja2xlX3R5cGUKcRFYDAAAAFB5UXQ1LlF0Q29yZXESWAoAAABRQnl0ZUFycmF5
-cRNDQgHZ0MsAAwAAAAABoQAAAJIAAATAAAAC/wAAAaEAAACoAAAEwAAAAv8AAAAAAAAAAAWgAAAB
-oQAAAKgAAATAAAAC/3EUhXEVh3EWUnEXWA0AAABzcGxpdHRlclN0YXRlcRhOdS4=
+cRNDMgHZ0MsAAgAAAAAIPgAAALkAAAtdAAADLAAACD4AAADVAAALXQAAAywAAAABAAAAAAaQcRSF
+cRWHcRZScRdYDQAAAHNwbGl0dGVyU3RhdGVxGE51Lg==
 </properties>
 		<properties format="pickle" node_id="30">gAN9cQAoWAwAAABLX2hvcml6b250YWxxAUcAAAAAAAAAAFgKAAAAS192ZXJ0aWNhbHECRz/3q9oN
 /e+FWBoAAABlbGVjdHJvbl9iZWFtX2RpdmVyZ2VuY2VfaHEDY251bXB5LmNvcmUubXVsdGlhcnJh
@@ -596,6 +597,92 @@ AACSAAAFnwAAA01xKoVxK4dxLFJxLVgLAAAAc291cmNlX25hbWVxLlgaAAAARVNSRl9JRDExX0xv
 d0JldGFfY3BtdTE4XzJxL1gPAAAAc3luZWRfZmlsZV9uYW1lcTBYUQAAAGh0dHA6Ly9mdHAuZXNy
 Zi5ldS9wdWIvc2Npc29mdC9zeW5lZC9saWdodHNvdXJjZXMvRVNSRl9JRDExX0xvd0JldGFfY3Bt
 dTE4XzIuanNvbnExWBIAAAB0eXBlX29mX3Byb3BlcnRpZXNxMksAdS4=
+</properties>
+		<properties format="pickle" node_id="31">gAN9cQAoWA4AAABoZGY1X2ZpbGVfbmFtZXEBWE4AAAAvdXNlcnMvc3Jpby9PQVNZUzEuMWQvb2Fz
+eXNfc2Nob29sL3Nlc3Npb24xLjFfeG9wcHkvdW5kdWxhdG9yX3Bvd2VyX2RlbnNpdHkuaDVxAlgT
+AAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEDY1B5UXQ1LnNpcApfdW5waWNrbGVfdHlwZQpxBFgMAAAA
+UHlRdDUuUXRDb3JlcQVYCgAAAFFCeXRlQXJyYXlxBkMyAdnQywACAAAAAAEEAAAA3QAABisAAAO0
+AAABBAAAAPkAAAYrAAADtAAAAAAAAAAABpBxB4VxCIdxCVJxCnUu
+</properties>
+		<properties format="pickle" node_id="32">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYlYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwBYCQAA
+AGZvbnRfc2l6ZXEDSwRYEQAAAGxpYnJhcnlMaXN0U291cmNlcQRdcQVjb2FzeXMud2lkZ2V0cy50
+b29scy5vd19weXRob25fc2NyaXB0ClNjcmlwdApxBimBcQd9cQgoWAQAAABuYW1lcQlYDgAAAGxv
+YWRfY29tc29sLnB5cQpYBgAAAHNjcmlwdHELWMkPAABpbXBvcnQgbnVtcHkKCmZyb20gc2NpcHkg
+aW1wb3J0IGludGVycG9sYXRlCmZyb20gc2NpcHkgaW1wb3J0IHNwYXRpYWwKCmltcG9ydCBtYXRw
+bG90bGliLnB5bGFiIGFzIHBsdAppbXBvcnQgbWF0cGxvdGxpYiBhcyBtcGwKCiMgZnJvbSBzY2lw
+eS5zcGF0aWFsIGltcG9ydCBEZWxhdW5heQojIGZyb20gc2NpcHkuaW50ZXJwb2xhdGUgaW1wb3J0
+IGdyaWRkYXRhCgoKZGVmIGxvYWRfY29tc29sX2ZpbGUoZmlsZW5hbWUsbng9MzAwLG55PTEwMCx4
+bWF4PU5vbmUseW1heD1Ob25lLGZvdXJfcXVhZHJhbnRzPTIsZG9fcGxvdD1GYWxzZSk6CgoKICAg
+IGEgPSBudW1weS5sb2FkdHh0KGZpbGVuYW1lLHNraXByb3dzPTkpCgogICAgbm9kZSAgPSBudW1w
+eS5yb3VuZChhLDEwKSAjIDEvNCBtb2RlbDogNTVtbSozNW1tbSwgdW5pdHMgaW4gbQoKICAgICMg
+Q29vcmRpbmF0ZXMKCiAgICBYMCA9IG5vZGVbOiwyXSAgIyBYPXggaW4gbQogICAgWTAgPSBub2Rl
+WzosMF0gICMgWT16IGluIG0KICAgIFowID0gbm9kZVs6LDNdICAjIFo9dXkgdmVydGljYWwgZGlz
+cGxhY2VtZW50IGluIG0KCiAgICBpZiBmb3VyX3F1YWRyYW50cyA9PSAyOgogICAgICAgIFgxID0g
+bnVtcHkuY29uY2F0ZW5hdGUoIChYMCwtWDApICkKICAgICAgICBZMSA9IG51bXB5LmNvbmNhdGVu
+YXRlKCAoWTAsIFkwKSApCiAgICAgICAgWjEgPSBudW1weS5jb25jYXRlbmF0ZSggKFowLCBaMCkg
+KQoKICAgICAgICBYID0gbnVtcHkuY29uY2F0ZW5hdGUoIChYMSwgWDEpICkKICAgICAgICBZID0g
+bnVtcHkuY29uY2F0ZW5hdGUoIChZMSwtWTEpICkKICAgICAgICBaID0gbnVtcHkuY29uY2F0ZW5h
+dGUoIChaMSwgWjEpICkKICAgIGVsc2U6CiAgICAgICAgWCA9IFgwCiAgICAgICAgWSA9IFkwCiAg
+ICAgICAgWiA9IFowCgogICAgIwogICAgIyBJbnRlcnBvbGF0aW9uCiAgICAjCiAgICBpZiB4bWF4
+IGlzIE5vbmU6CiAgICAgICAgeG1heCA9IG51bXB5LmFicyhYKS5tYXgoKQogICAgaWYgeW1heCBp
+cyBOb25lOgogICAgICAgIHltYXggPSBudW1weS5hYnMoWSkubWF4KCkKCgogICAgIyB0cmlhbmd1
+bGF0aW9uCgogICAgUGkgPSBudW1weS5hcnJheShbWCwgWV0pLnRyYW5zcG9zZSgpCiAgICB0cmkg
+PSBzcGF0aWFsLkRlbGF1bmF5KFBpKQoKICAgIGlmIGRvX3Bsb3Q6CiAgICAgICAgcGx0LnRyaXBs
+b3QoWDAsIFkwICwgdHJpLnNpbXBsaWNlcy5jb3B5KCkpCiAgICAgICAgcGx0LnBsb3QoWDAsIFkw
+LCAib3IiLCBsYWJlbCA9ICJEYXRhIikKICAgICAgICBwbHQuZ3JpZCgpCiAgICAgICAgcGx0Lmxl
+Z2VuZCgpCiAgICAgICAgcGx0LnhsYWJlbCgieCIpCiAgICAgICAgcGx0LnlsYWJlbCgieSIpCiAg
+ICAgICAgcGx0LnNob3coKQoKCiAgICBpZiBmb3VyX3F1YWRyYW50cyA9PSAyOgogICAgICAgIHhs
+aW4gPSBudW1weS5saW5zcGFjZSgteG1heCx4bWF4LG54KQogICAgICAgIHlsaW4gPSBudW1weS5s
+aW5zcGFjZSgteW1heCx5bWF4LG55KQogICAgZWxzZToKICAgICAgICB4bGluID0gbnVtcHkubGlu
+c3BhY2UoMCx4bWF4LG54KQogICAgICAgIHlsaW4gPSBudW1weS5saW5zcGFjZSgwLHltYXgsbnkp
+CgogICAgWExJTiA9ICBudW1weS5vdXRlcih4bGluLG51bXB5Lm9uZXNfbGlrZSh5bGluKSkKICAg
+IFlMSU4gPSAgbnVtcHkub3V0ZXIobnVtcHkub25lc19saWtlKHhsaW4pLHlsaW4pCgoKICAgICMg
+aW50ZXJwb2xhdGlvbgogICAgUCA9IG51bXB5LmFycmF5KFtYTElOLmZsYXR0ZW4oKSwgWUxJTi5m
+bGF0dGVuKCkgXSkudHJhbnNwb3NlKCkKCiAgICB6ID0gaW50ZXJwb2xhdGUuZ3JpZGRhdGEoUGks
+IFosIFAsIG1ldGhvZCA9ICJjdWJpYyIpLnJlc2hhcGUoW254LG55XSkKCiAgICBpZiBkb19wbG90
+OgogICAgICAgIHBsdC5jb250b3VyZihYTElOLCBZTElOLCB6LCA1MCwgY21hcCA9IG1wbC5jbS5q
+ZXQpCiAgICAgICAgcGx0LmNvbG9yYmFyKCkKICAgICAgICBwbHQuY29udG91cihYTElOLCBZTElO
+LCB6LCAyMCwgY29sb3JzID0gImsiKQogICAgICAgICNwbHQudHJpcGxvdChYaSwgWWkgLCB0cmku
+c2ltcGxpY2VzLmNvcHkoKSwgY29sb3IgPSAiayIpCiAgICAgICAgcGx0LnBsb3QoWDAsIFkwLCAi
+b3IiLCBsYWJlbCA9ICJEYXRhIikKICAgICAgICBwbHQubGVnZW5kKCkKICAgICAgICBwbHQuZ3Jp
+ZCgpCiAgICAgICAgcGx0LnNob3coKQoKCiAgICBpZiBmb3VyX3F1YWRyYW50cyA9PSAxOgogICAg
+ICAgIHoxID0gbnVtcHkudnN0YWNrKChudW1weS5mbGlwKHosYXhpcz0wKSx6WzE6LDpdKSkKICAg
+ICAgICB6MiA9IG51bXB5LmhzdGFjaygobnVtcHkuZmxpcCh6MSxheGlzPTEpLHoxWzosMTpdKSkK
+CiAgICAgICAgeGxpbjIgPSBudW1weS5jb25jYXRlbmF0ZSgoLXhsaW5bOjotMV0seGxpblsxOl0p
+KQogICAgICAgIHlsaW4yID0gbnVtcHkuY29uY2F0ZW5hdGUoKC15bGluWzo6LTFdLHlsaW5bMTpd
+KSkKCiAgICAgICAgcmV0dXJuIHoyLHhsaW4yLHlsaW4yCiAgICBlbHNlOgogICAgICAgIHJldHVy
+biB6LHhsaW4seWxpbgoKZGVmIHdyaXRlX3NoYWRvd19zdXJmYWNlKHMseHgseXksZmlsZW5hbWU9
+J3ByZXN1cmZhY2UuZGF0Jyk6CiAgICAiIiIKICAgICAgd3JpdGVfc2hhZG93U3VyZmFjZTogd3Jp
+dGVzIGEgbWVzaCBpbiB0aGUgU0hBRE9XL3ByZXN1cmZhY2UgZm9ybWF0CiAgICAgIFNZTlRBWDoK
+ICAgICAgICAgICBvdXQgPSB3cml0ZV9zaGFkb3dTdXJmYWNlKHoseCx5LGZpbGVuYW1lPWZpbGVu
+YW1lKQogICAgICBJTlBVVFM6CiAgICAgICAgICAgeiAtIDJEIGFycmF5IG9mIGhlaWdodHMgeih4
+LHkpCiAgICAgICAgICAgeCAtIDFEIGFycmF5IG9mIHNwYXRpYWwgY29vcmRpbmF0ZXMgYWxvbmcg
+bWlycm9yIHdpZHRoLgogICAgICAgICAgIHkgLSAxRCBhcnJheSBvZiBzcGF0aWFsIGNvb3JkaW5h
+dGVzIGFsb25nIG1pcnJvciBsZW5ndGguCgogICAgICBPVVRQVVRTOgogICAgICAgICAgIGZpbGVu
+YW1lIC0gb3V0cHV0IGZpbGUgaW4gU0hBRE9XIGZvcm1hdC4gSWYgdW5kZWZpbmVkLCB0aGUKICAg
+ICAgICAgICAgICAgICAgICAgZmlsZSBpcyBuYW1lcyAicHJlc3VyZmFjZS5kYXQiCgogICAgIiIi
+CgogICAgdHJ5OgogICAgICAgZnMgPSBvcGVuKGZpbGVuYW1lLCAndycpCiAgICBleGNlcHQgSU9F
+cnJvcjoKICAgICAgIG91dCA9IDAKICAgICAgIHByaW50ICgiRXJyb3I6IGNhblwndCBvcGVuIGZp
+bGU6ICIrZmlsZW5hbWUpCiAgICAgICByZXR1cm4KICAgIGVsc2U6CiAgICAgICAgIyBkaW1lbnNp
+b25zCiAgICAgICAgZnMud3JpdGUoICIlZCAgJWQgXG4iJSh4eC5zaXplLHl5LnNpemUpKQogICAg
+ICAgICMgeSBhcnJheQogICAgICAgIGZvciBpIGluIHJhbmdlKHl5LnNpemUpOgogICAgICAgICAg
+ICBmcy53cml0ZSgiJWcgICIlKHl5W2ldKSkKICAgICAgICBmcy53cml0ZSgiXG4iKQogICAgICAg
+ICMgZm9yIGVhY2ggeCBlbGVtZW50LCB0aGUgeCB2YWx1ZSBmb2xsb3dlZCBieSB0aGUgY29ycmVz
+cG9uZGluZyB6KHkpIHByb2ZpbGUKICAgICAgICBmb3IgaSBpbiByYW5nZSh4eC5zaXplKToKICAg
+ICAgICAgICAgdG1wcyA9ICIiCiAgICAgICAgICAgIGZvciBqIGluIHJhbmdlKHl5LnNpemUpOgog
+ICAgICAgICAgICAgICAgdG1wcyArPSAiJWcgICIlKHNbaSxqXSkKICAgICAgICAgICAgZnMud3Jp
+dGUoIiVnICAgICVzIFxuIiUoeHhbaV0sdG1wcykpCiAgICAgICAgZnMuY2xvc2UoKQogICAgICAg
+IHByaW50ICgid3JpdGVfc2hhZG93X3N1cmZhY2U6IEZpbGUgZm9yIFNIQURPVyAiK2ZpbGVuYW1l
+KyIgd3JpdHRlbiB0byBkaXNrLiIpCgoKCmZyb20gc3J4cmF5bGliLnBsb3QuZ29sIGltcG9ydCBw
+bG90X2ltYWdlCgp6LHgseSA9IGxvYWRfY29tc29sX2ZpbGUoImJydXQudHh0IixueD00MDAsbnk9
+MTUwKQoKcGxvdF9pbWFnZSh6LHgseSx4dGl0bGU9IlggKCVkIHBpeGVscywgbWF4OiVmKSIlKHgu
+c2l6ZSx4Lm1heCgpKSx5dGl0bGU9IlkgKCVkIHBpeGVscywgbWF4OiVmKSIlKHkuc2l6ZSx5Lm1h
+eCgpKSwpCgp3cml0ZV9zaGFkb3dfc3VyZmFjZSh6LHgseSwgZmlsZW5hbWU9ImJydXQuZGF0IikK
+Cm91dF9vYmplY3QgPSAiYnJ1dC5kYXQiCgpxDFgFAAAAZmxhZ3NxDUsAWAgAAABmaWxlbmFtZXEO
+WCAAAAAvdXNlcnMvc3Jpby9PYXN5cy9sb2FkX2NvbXNvbC5weXEPdWJhWBMAAABzYXZlZFdpZGdl
+dEdlb21ldHJ5cRBjUHlRdDUuc2lwCl91bnBpY2tsZV90eXBlCnERWAwAAABQeVF0NS5RdENvcmVx
+ElgKAAAAUUJ5dGVBcnJheXETQzIB2dDLAAIAAAAAAGMAAABaAAAFoAAAAq4AAABjAAAAdgAABaAA
+AAKuAAAAAAAAAAAGkHEUhXEVh3EWUnEXWA0AAABzcGxpdHRlclN0YXRlcRhOdS4=
 </properties>
 	</node_properties>
 </scheme>
