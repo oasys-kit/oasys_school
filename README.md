@@ -1,9 +1,21 @@
 # First OASYS School
 
+LAST MINUTE
+===========
+
+For info and timetable please visit https://indico.esrf.fr/indico/event/26/overview
+
+Please bring your laptop to the course. You can work in the ESRF computer cluster (mainly for ESRF people) or with a local installation of Oasys in your laptop. Please follow the instructions here: 
+
+- MAC USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installation-of-Oasys-in-a-Mac-(binaries)
+- LINUX USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installing-Oasys-in-Linux-(debian-ubuntu)
+- WINDOWS USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Install-Oasys-in-Windows-(alpha-version)
+
+
 DATES
 =====
 
-Tue 14-Thu 16 May 2019~~15-17 May 2019~~
+Tue 14-Thu 16 May 2019
 
 
 SCOPE
