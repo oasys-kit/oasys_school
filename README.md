@@ -5,6 +5,8 @@ LAST MINUTE
 
 For info and timetable please visit https://indico.esrf.fr/indico/event/26/overview
 
+Site map. Access to guesthouse and conference room: https://indico.esrf.fr/indico/event/26/material/0/1.jpg
+
 Please bring your laptop to the course. You can work in the ESRF computer cluster (mainly for ESRF people) or with a local installation of Oasys in your laptop. Please follow the instructions here: 
 
 - MAC USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installation-of-Oasys-in-a-Mac-(binaries)
