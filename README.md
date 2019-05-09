@@ -11,7 +11,9 @@ Please bring your laptop to the course. You can work in the ESRF computer cluste
 
 - MAC USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installation-of-Oasys-in-a-Mac-(binaries)
 - LINUX USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installing-Oasys-in-Linux-(debian-ubuntu)
-- WINDOWS USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Install-Oasys-in-Windows-(alpha-version)
+- WINDOWS USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Install-Oasys-in-Windows
+
+For ESRF people, you should login in NICE and enter oasys
 
 
 DATES
