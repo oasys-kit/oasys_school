@@ -8,9 +8,9 @@
 		<node id="4" name="Plot XY" position="(620.0, 264.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY (1)" version="" />
 		<node id="5" name="Ellipsoid Mirror" position="(344.0, 367.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="Ellipsoid Mirror - with height error" version="" />
 		<node id="6" name="DABAM Height Profile" position="(148.0, 468.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.dabam_height_profile.OWdabam_height_profile" title="DABAM Height Profile" version="" />
-		<node id="7" name="Plot XY" position="(618.0, 367.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY (2)" version="" />
+		<node id="7" name="Plot XY" position="(618.0, 366.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY (2)" version="" />
 		<node id="8" name="Hybrid Screen" position="(458.0, 472.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_hybrid_screen.HybridScreen" title="Hybrid Screen (1)" version="" />
-		<node id="9" name="Plot XY" position="(625.0, 475.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY (1) (1)" version="" />
+		<node id="9" name="Plot XY" position="(624.0, 475.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY (1) (1)" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Input Beam" sink_node_id="1" source_channel="Beam" source_node_id="0" />
@@ -25,16 +25,16 @@
 	</links>
 	<annotations>
 		<text font-family="Helvetica" font-size="16" id="0" rect="(94.0, -20.0, 133.0, 109.0)">10 keV
-sig_z = 10 µm
+point source
 sig_z' = 10 µrad (50 to use acceptance slit) </text>
-		<text font-family="Helvetica" font-size="16" id="1" rect="(289.0, -23.0, 136.0, 108.0)">Elliptical cylinder
-F1 = 30 m
-F2 = 0.3 m
+		<text font-family="Helvetica" font-size="16" id="1" rect="(284.0, -17.0, 136.0, 108.0)">Elliptical cylinder
+p = 30 m
+q = 0.3 m
 θ = 3 mrad
 L = 200 mm</text>
 		<text font-family="Helvetica" font-size="16" id="2" rect="(79.0, 347.0, 150.0, 69.0)">Profile 61
 scale to 200 mm
-height error 4 nm</text>
+height error 2 nm</text>
 	</annotations>
 	<thumbnail />
 	<node_properties>
@@ -60,7 +60,7 @@ AABsaW5lX3ZhbHVlXzNxI0cAAAAAAAAAAFgMAAAAbGluZV92YWx1ZV80cSRHAAAAAAAAAABYDAAA
 AGxpbmVfdmFsdWVfNXElRwAAAAAAAAAAWAwAAABsaW5lX3ZhbHVlXzZxJkcAAAAAAAAAAFgMAAAA
 bGluZV92YWx1ZV83cSdHAAAAAAAAAABYDAAAAGxpbmVfdmFsdWVfOHEoRwAAAAAAAAAAWAwAAABs
 aW5lX3ZhbHVlXzlxKUcAAAAAAAAAAFgbAAAAbWF4X251bWJlcl9vZl9yZWplY3RlZF9yYXlzcSpK
-gJaYAFgPAAAAbnVtYmVyX29mX2xpbmVzcStLAFgOAAAAbnVtYmVyX29mX3JheXNxLE1Qw1gSAAAA
+gJaYAFgPAAAAbnVtYmVyX29mX2xpbmVzcStLAFgOAAAAbnVtYmVyX29mX3JheXNxLE2IE1gSAAAA
 b3B0aW1pemVfZmlsZV9uYW1lcS1YDQAAAE5PTkVTUEVDSUZJRURxLlgPAAAAb3B0aW1pemVfc291
 cmNlcS9LAFgKAAAAcGhhc2VfZGlmZnEwRwAAAAAAAAAAWBoAAABwaG90b25fZW5lcmd5X2Rpc3Ry
 aWJ1dGlvbnExSwBYDAAAAHBvbGFyaXphdGlvbnEySwFYEwAAAHBvbGFyaXphdGlvbl9kZWdyZWVx
@@ -69,7 +69,7 @@ mZmZmZmaWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cTZjUHlRdDUuc2lwCl91bnBpY2tsZV90eXBl
 CnE3WAwAAABQeVF0NS5RdENvcmVxOFgKAAAAUUJ5dGVBcnJheXE5QzIB2dDLAAIAAAAAAF0AAAA0
 AAAFlgAAAx4AAABmAAAAWgAABY0AAAMVAAAAAAAAAAAGkHE6hXE7h3E8UnE9WAQAAABzZWVkcT5K
 EZ5WAFgHAAAAc2lnbWFfeXE/Rz9QYk3S8an8WBEAAABzaW5nbGVfbGluZV92YWx1ZXFAR0DDiAAA
-AAAAWA4AAABzb3VyY2VfZGVwdGhfeXFBRz/JmZmZmZmaWAwAAABzcGF0aWFsX3R5cGVxQksDWA8A
+AAAAWA4AAABzb3VyY2VfZGVwdGhfeXFBRz/JmZmZmZmaWAwAAABzcGF0aWFsX3R5cGVxQksAWA8A
 AAB1bmlmb3JtX21heGltdW1xQ0dAj5AAAAAAAFgPAAAAdW5pZm9ybV9taW5pbXVtcURHQI9AAAAA
 AABYBQAAAHVuaXRzcUVLAFgRAAAAdXNlcl9kZWZpbmVkX2ZpbGVxRlgTAAAAZW5lcmd5X3NwZWN0
 cnVtLmRhdHFHWBQAAAB1c2VyX2RlZmluZWRfbWF4aW11bXFIRwAAAAAAAAAAWBQAAAB1c2VyX2Rl
@@ -215,13 +215,13 @@ c2F2ZV94eV9wbG90LmhkZjVxA1gYAAAAYXV0b3NhdmVfcGFydGlhbF9yZXN1bHRzcQRLAFgOAAAA
 Y2FydGVzaWFuX2F4aXNxBUsBWAsAAABpbWFnZV9wbGFuZXEGSwBYGAAAAGltYWdlX3BsYW5lX25l
 d19wb3NpdGlvbnEHR0AkAAAAAAAAWBwAAABpbWFnZV9wbGFuZV9yZWxfYWJzX3Bvc2l0aW9ucQhL
 AFgQAAAAaXNfYXV0b21hdGljX3J1bnEJiFgUAAAAaXNfY29udmVyc2lvbl9hY3RpdmVxCksBWAsA
-AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLZFgEAAAAcmF5c3ENSwFYEwAA
+AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLyFgEAAAAcmF5c3ENSwFYEwAA
 AHNhdmVkV2lkZ2V0R2VvbWV0cnlxDmNQeVF0NS5zaXAKX3VucGlja2xlX3R5cGUKcQ9YDAAAAFB5
 UXQ1LlF0Q29yZXEQWAoAAABRQnl0ZUFycmF5cRFDMgHZ0MsAAgAAAAAASwAAAAwAAAWEAAAC9gAA
 AFQAAAAyAAAFewAAAu0AAAAAAAAAAAaQcRKFcROHcRRScRVYBQAAAHRpdGxlcRZYBQAAACBYLCBa
 cRdYEwAAAHdlaWdodF9jb2x1bW5faW5kZXhxGEsXWA4AAAB4X2NvbHVtbl9pbmRleHEZSwBYBwAA
 AHhfcmFuZ2VxGksAWAsAAAB4X3JhbmdlX21heHEbRwAAAAAAAAAAWAsAAAB4X3JhbmdlX21pbnEc
-RwAAAAAAAAAAWA4AAAB5X2NvbHVtbl9pbmRleHEdSwJYBwAAAHlfcmFuZ2VxHksBWAsAAAB5X3Jh
+RwAAAAAAAAAAWA4AAAB5X2NvbHVtbl9pbmRleHEdSwJYBwAAAHlfcmFuZ2VxHksAWAsAAAB5X3Jh
 bmdlX21heHEfRz/wAAAAAAAAWAsAAAB5X3JhbmdlX21pbnEgR7/wAAAAAAAAdS4=
 </properties>
 		<properties format="pickle" node_id="4">gAN9cQAoWAgAAABhdXRvc2F2ZXEBSwBYEgAAAGF1dG9zYXZlX2ZpbGVfbmFtZXECWBUAAABhdXRv
@@ -229,13 +229,13 @@ c2F2ZV94eV9wbG90LmhkZjVxA1gYAAAAYXV0b3NhdmVfcGFydGlhbF9yZXN1bHRzcQRLAFgOAAAA
 Y2FydGVzaWFuX2F4aXNxBUsBWAsAAABpbWFnZV9wbGFuZXEGSwBYGAAAAGltYWdlX3BsYW5lX25l
 d19wb3NpdGlvbnEHR0AkAAAAAAAAWBwAAABpbWFnZV9wbGFuZV9yZWxfYWJzX3Bvc2l0aW9ucQhL
 AFgQAAAAaXNfYXV0b21hdGljX3J1bnEJiFgUAAAAaXNfY29udmVyc2lvbl9hY3RpdmVxCksBWAsA
-AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLZFgEAAAAcmF5c3ENSwFYEwAA
+AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLyFgEAAAAcmF5c3ENSwFYEwAA
 AHNhdmVkV2lkZ2V0R2VvbWV0cnlxDmNQeVF0NS5zaXAKX3VucGlja2xlX3R5cGUKcQ9YDAAAAFB5
 UXQ1LlF0Q29yZXEQWAoAAABRQnl0ZUFycmF5cRFDMgHZ0MsAAgAAAAAASwAAAAwAAAWEAAAC9gAA
 AFQAAAAyAAAFewAAAu0AAAAAAAAAAAaQcRKFcROHcRRScRVYBQAAAHRpdGxlcRZYBQAAACBYLCBa
 cRdYEwAAAHdlaWdodF9jb2x1bW5faW5kZXhxGEsXWA4AAAB4X2NvbHVtbl9pbmRleHEZSwBYBwAA
 AHhfcmFuZ2VxGksAWAsAAAB4X3JhbmdlX21heHEbRwAAAAAAAAAAWAsAAAB4X3JhbmdlX21pbnEc
-RwAAAAAAAAAAWA4AAAB5X2NvbHVtbl9pbmRleHEdSwJYBwAAAHlfcmFuZ2VxHksBWAsAAAB5X3Jh
+RwAAAAAAAAAAWA4AAAB5X2NvbHVtbl9pbmRleHEdSwJYBwAAAHlfcmFuZ2VxHksAWAsAAAB5X3Jh
 bmdlX21heHEfRz/wAAAAAAAAWAsAAAB5X3JhbmdlX21pbnEgR7/wAAAAAAAAdS4=
 </properties>
 		<properties format="pickle" node_id="5">gAN9cQAoWAoAAABhYnNvcnB0aW9ucQFLAFgVAAAAYWNjZXB0YW5jZV9zbGl0c19tb2RlcQJLAFgU
@@ -373,10 +373,10 @@ ZjVxE1gRAAAAa2luZF9vZl9wcm9maWxlX3hxFEsDWAgAAABtb2RpZnlfeHEVSwBYCAAAAG1vZGlm
 eV95cRZLAVgRAAAAbW9udGVjYXJsb19zZWVkX3hxF01TIlgMAAAAbmV3X2xlbmd0aF94cRhHP8m6
 XjU/fO5YDAAAAG5ld19sZW5ndGhfeXEZR0BpAAAAAAAAWBkAAABwb3dlcl9sYXdfZXhwb25lbnRf
 YmV0YV94cRpHQAgAAAAAAABYDQAAAHJlbm9ybWFsaXplX3hxG0sAWA0AAAByZW5vcm1hbGl6ZV95
-cRxLAVgFAAAAcm1zX3hxHUc/uZmZmZmZmlgFAAAAcm1zX3lxHkdAEAAAAAAAAFgTAAAAc2F2ZWRX
+cRxLAVgFAAAAcm1zX3hxHUc/uZmZmZmZmlgFAAAAcm1zX3lxHkdAAAAAAAAAAFgTAAAAc2F2ZWRX
 aWRnZXRHZW9tZXRyeXEfY1B5UXQ1LnNpcApfdW5waWNrbGVfdHlwZQpxIFgMAAAAUHlRdDUuUXRD
-b3JlcSFYCgAAAFFCeXRlQXJyYXlxIkMyAdnQywACAAAAAABLAAAADAAABXIAAALHAAAASwAAAAwA
-AAVyAAACxwAAAAAAAAAABpBxI4VxJIdxJVJxJlgFAAAAc2hhcGVxJ0sAWBAAAABzbG9wZV9lcnJv
+b3JlcSFYCgAAAFFCeXRlQXJyYXlxIkMyAdnQywACAAAAAABLAAAADAAABYQAAAL2AAAAVAAAADIA
+AAV7AAAC7QAAAAAAAAAABpBxI4VxJIdxJVJxJlgFAAAAc2hhcGVxJ0sAWBAAAABzbG9wZV9lcnJv
 cl9mcm9tcShHAAAAAAAAAABYDgAAAHNsb3BlX2Vycm9yX3RvcSlHP/gAAAAAAABYBgAAAHN0ZXBf
 eHEqRz+5mZmZmZmaWA8AAAB1c2VfdW5kZXRyZW5kZWRxK0sAdS4=
 </properties>
@@ -385,7 +385,7 @@ c2F2ZV94eV9wbG90LmhkZjVxA1gYAAAAYXV0b3NhdmVfcGFydGlhbF9yZXN1bHRzcQRLAFgOAAAA
 Y2FydGVzaWFuX2F4aXNxBUsBWAsAAABpbWFnZV9wbGFuZXEGSwBYGAAAAGltYWdlX3BsYW5lX25l
 d19wb3NpdGlvbnEHR0AkAAAAAAAAWBwAAABpbWFnZV9wbGFuZV9yZWxfYWJzX3Bvc2l0aW9ucQhL
 AFgQAAAAaXNfYXV0b21hdGljX3J1bnEJiFgUAAAAaXNfY29udmVyc2lvbl9hY3RpdmVxCksBWAsA
-AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLZFgEAAAAcmF5c3ENSwFYEwAA
+AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLyFgEAAAAcmF5c3ENSwFYEwAA
 AHNhdmVkV2lkZ2V0R2VvbWV0cnlxDmNQeVF0NS5zaXAKX3VucGlja2xlX3R5cGUKcQ9YDAAAAFB5
 UXQ1LlF0Q29yZXEQWAoAAABRQnl0ZUFycmF5cRFDMgHZ0MsAAgAAAAAASwAAAAwAAAWEAAAC9gAA
 AFQAAAAyAAAFewAAAu0AAAAAAAAAAAaQcRKFcROHcRRScRVYBQAAAHRpdGxlcRZYBQAAACBYLCBa
@@ -410,7 +410,7 @@ c2F2ZV94eV9wbG90LmhkZjVxA1gYAAAAYXV0b3NhdmVfcGFydGlhbF9yZXN1bHRzcQRLAFgOAAAA
 Y2FydGVzaWFuX2F4aXNxBUsBWAsAAABpbWFnZV9wbGFuZXEGSwBYGAAAAGltYWdlX3BsYW5lX25l
 d19wb3NpdGlvbnEHR0AkAAAAAAAAWBwAAABpbWFnZV9wbGFuZV9yZWxfYWJzX3Bvc2l0aW9ucQhL
 AFgQAAAAaXNfYXV0b21hdGljX3J1bnEJiFgUAAAAaXNfY29udmVyc2lvbl9hY3RpdmVxCksBWAsA
-AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLZFgEAAAAcmF5c3ENSwFYEwAA
+AABrZWVwX3Jlc3VsdHELSwBYDgAAAG51bWJlcl9vZl9iaW5zcQxLyFgEAAAAcmF5c3ENSwFYEwAA
 AHNhdmVkV2lkZ2V0R2VvbWV0cnlxDmNQeVF0NS5zaXAKX3VucGlja2xlX3R5cGUKcQ9YDAAAAFB5
 UXQ1LlF0Q29yZXEQWAoAAABRQnl0ZUFycmF5cRFDMgHZ0MsAAgAAAAAASwAAAAwAAAWEAAAC9gAA
 AFQAAAAyAAAFewAAAu0AAAAAAAAAAAaQcRKFcROHcRRScRVYBQAAAHRpdGxlcRZYBQAAACBYLCBa
