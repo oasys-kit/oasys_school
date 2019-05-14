@@ -15,9 +15,10 @@ Please bring your laptop to the course. You can work in the ESRF computer cluste
 
 For ESRF people, you should login in NICE and enter oasys.
 
-The couse material is in this repository. Additional material:
+The couse material is in this repository. Clone or Download it using the corresponding button. Additional material:
 
 - ShadowOUI Tutorials: https://github.com/oasys-kit/ShadowOui-Tutorial
+- OASYS sources: https://github.com/oasys-kit
 
 
 DATES
