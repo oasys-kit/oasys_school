@@ -19,6 +19,7 @@ The couse material is in this repository. Clone or Download it using the corresp
 
 - ShadowOUI Tutorials: https://github.com/oasys-kit/ShadowOui-Tutorial
 - OASYS sources: https://github.com/oasys-kit
+- SYNED ESRF Sources: http://ftp.esrf.eu/pub/scisoft/syned/lightsources/
 
 
 DATES
