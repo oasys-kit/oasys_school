@@ -3,6 +3,8 @@
 LAST MINUTE
 ===========
 
+Group photo uploaded here: https://github.com/srio/oasys_school/blob/master/PHOTO_OASYS_SCHOOL.jpg
+
 For info and timetable please visit https://indico.esrf.fr/indico/event/26/overview
 
 Site map. Access to guesthouse and conference room: https://indico.esrf.fr/indico/event/26/material/0/1.jpg
