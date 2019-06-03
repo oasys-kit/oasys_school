@@ -4,6 +4,14 @@ First OASYS School
 
 .. image:: https://github.com/srio/oasys_school/blob/master/PHOTO_OASYS_SCHOOL.jpg
 
+AFTER SCHOOL NOTES
+==================
+
+The School is over! Please find here some summary reports: 
+
+- at the PaNOSC site: http://www.panosc.eu/news/the-esrf-welcomed-the-1st-oasys-school/
+
+
 LAST MINUTE
 ===========
 
