@@ -11,6 +11,8 @@ The School is over! Please find here some summary reports:
 
 - at the PaNOSC site: http://www.panosc.eu/news/the-esrf-welcomed-the-1st-oasys-school/
 
+A preprint of the paper "A hierarchical approach for modelling X-ray beamlines. Application to a coherent beamline" with the example of the ESRF-ID16A beamline used for the school is available at https://arxiv.org/abs/1906.07100
+
 
 LAST MINUTE
 ===========
