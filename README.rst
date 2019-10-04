@@ -9,7 +9,7 @@ AFTER SCHOOL NOTES
 
 The School is over! Please find here some summary reports: 
 
-- At the SYnchrotron Radiation News: https://www.tandfonline.com/doi/full/10.1080/08940886.2019.1654832
+- At the Synchrotron Radiation News: https://www.tandfonline.com/doi/full/10.1080/08940886.2019.1654832
 
 - at the PaNOSC site: http://www.panosc.eu/news/the-esrf-welcomed-the-1st-oasys-school/
 
