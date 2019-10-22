@@ -39,10 +39,10 @@ For ESRF people, you should login in NICE and enter oasys.
 
 The couse material is in this repository. Clone or Download it using the corresponding button. Additional material:
 
-.. -OASYS site: https://www.aps.anl.gov/Science/Scientific-Software/OASYS
-.. -ShadowOUI Tutorials: https://github.com/oasys-kit/ShadowOui-Tutorial
-.. -OASYS sources: https://github.com/oasys-kit
-.. -SYNED ESRF Sources: http://ftp.esrf.eu/pub/scisoft/syned/lightsources/
+.. _OASYS site: https://www.aps.anl.gov/Science/Scientific-Software/OASYS
+.. _ShadowOUI Tutorials: https://github.com/oasys-kit/ShadowOui-Tutorial
+.. _OASYS sources: https://github.com/oasys-kit
+.. _SYNED ESRF Sources: http://ftp.esrf.eu/pub/scisoft/syned/lightsources/
 
 - `OASYS site`_
 - `ShadowOUI Tutorials`_
