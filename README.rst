@@ -27,11 +27,13 @@ Site map. Access to guesthouse and conference room: https://indico.esrf.fr/indic
 
 Please bring your laptop to the course. You can work in the ESRF computer cluster (mainly for ESRF people) or with a local installation of Oasys in your laptop. Please follow the instructions here: 
 
-.. _Linux_USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installing-Oasys-in-Linux-(Ubuntu-18.04)
+.. _MAC USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installation-of-Oasys-in-a-Mac
+.. _LINUX USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installing-Oasys-in-Linux-(Ubuntu-18.04)
+.. _WINDOWS USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Install-Oasys-in-Windows-10
 
-- MAC USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Installation-of-Oasys-in-a-Mac
-- LINUX USERS: Linux_USERS_
-- WINDOWS USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Install-Oasys-in-Windows-10
+- `MAC USERS`_ 
+- `LINUX USERS`_
+- `WINDOWS USERS`_ 
 
 For ESRF people, you should login in NICE and enter oasys.
 
