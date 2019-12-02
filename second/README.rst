@@ -2,7 +2,7 @@ Second OASYS School
 ==================
 
 
-.. image:: https://github.com/srio/oasys_school/blob/master/PHOTO_OASYS_SCHOOL.jpg
+.. image:: https://github.com/oasys-kit/oasys_school/blob/master/second/oasys-splash-screen_2.png
 
 
 LAST MINUTE
