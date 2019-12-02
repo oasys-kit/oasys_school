@@ -2,7 +2,7 @@ First OASYS School
 ==================
 
 
-.. image:: https://github.com/srio/oasys_school/first/blob/master/PHOTO_OASYS_SCHOOL.jpg
+.. image:: https://github.com/srio/oasys_school/first/PHOTO_OASYS_SCHOOL.jpg
 
 AFTER SCHOOL NOTES
 ==================
@@ -19,7 +19,7 @@ A preprint of the paper "A hierarchical approach for modelling X-ray beamlines. 
 LAST MINUTE
 ===========
 
-Group photo uploaded here: https://github.com/srio/oasys_school/first/blob/master/PHOTO_OASYS_SCHOOL.jpg
+Group photo uploaded here: https://github.com/srio/oasys_school/first/PHOTO_OASYS_SCHOOL.jpg
 
 For info and timetable please visit https://indico.esrf.fr/indico/event/26/overview
 
