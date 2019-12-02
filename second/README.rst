@@ -1,14 +1,10 @@
 Second OASYS School
 ==================
 
-
-.. image:: https://github.com/oasys-kit/oasys_school/blob/master/second/oasys-splash-screen_2.png
-
-
 LAST MINUTE
 ===========
 
-For info and timetable please visit https://tinyurl.com/y4wbpz29
+For info and timetable please visit https://www.aps.anl.gov/APS-Reminders/2019-12-09/aps-u-metrology-workshop-second-oasys-school
 
 Site map. Access to guesthouse and conference room: https://www.anl.gov/reference/argonne-campus-map
 
