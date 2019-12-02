@@ -2,14 +2,14 @@ First OASYS School
 ==================
 
 
-.. image:: https://github.com/srio/oasys_school/blob/master/PHOTO_OASYS_SCHOOL.jpg
+.. image:: https://github.com/oasys-kit/oasys_school/blob/master/first/PHOTO_OASYS_SCHOOL.jpg
 
 AFTER SCHOOL NOTES
 ==================
 
 The School is over! Please find here some summary reports: 
 
-- At the Synchrotron Radiation News: https://www.tandfonline.com/doi/full/10.1080/08940886.2019.1654832  ( PDF here: https://github.com/oasys-kit/oasys_school/blob/master/SRN_oasys_school.pdf )
+- At the Synchrotron Radiation News: https://www.tandfonline.com/doi/full/10.1080/08940886.2019.1654832  ( PDF here: https://github.com/oasys-kit/oasys_school/blob/master/first/SRN_oasys_school.pdf )
 
 - at the PaNOSC site: http://www.panosc.eu/news/the-esrf-welcomed-the-1st-oasys-school/
 
@@ -19,7 +19,7 @@ A preprint of the paper "A hierarchical approach for modelling X-ray beamlines. 
 LAST MINUTE
 ===========
 
-Group photo uploaded here: https://github.com/srio/oasys_school/blob/master/PHOTO_OASYS_SCHOOL.jpg
+Group photo uploaded here: https://github.com/oasys-kit/oasys_school/blob/master/first/PHOTO_OASYS_SCHOOL.jpg
 
 For info and timetable please visit https://indico.esrf.fr/indico/event/26/overview
 
