@@ -1,9 +1,6 @@
 Second OASYS School
 ==================
 
-LAST MINUTE
-===========
-
 For info and timetable please visit https://www.aps.anl.gov/APS-Reminders/2019-12-09/aps-u-metrology-workshop-second-oasys-school
 
 Site map. Access to guesthouse and conference room: https://www.anl.gov/reference/argonne-campus-map
