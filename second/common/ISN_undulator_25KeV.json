@@ -1,0 +1,24 @@
+{
+    "CLASS_NAME": "LightSource",
+    "name": "Undulator ISN 25KeV",
+    "electron_beam": {
+        "CLASS_NAME": "ElectronBeam",
+        "energy_in_GeV": 6.0,
+        "energy_spread": 0.00138,
+        "current": 0.2,
+        "number_of_bunches": 400,
+        "moment_xx": 2.1904000000000003e-10,
+        "moment_xxp": 0.0,
+        "moment_xpxp": 7.839999999999999e-12,
+        "moment_yy": 1.3690000000000002e-11,
+        "moment_yyp": 0.0,
+        "moment_ypyp": 2.2500000000000003e-12
+    },
+    "magnetic_structure": {
+        "CLASS_NAME": "Undulator",
+        "K_vertical": 1.862765,
+        "K_horizontal": 0.0,
+        "period_length": 0.025,
+        "number_of_periods": 184.0
+    }
+}
