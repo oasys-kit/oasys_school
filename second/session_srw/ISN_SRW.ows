@@ -2,7 +2,7 @@
 <scheme description="In Situ Nanoprobe Beamline" title="ISN 25 KeV" version="2.0" working_directory="/Users/lrebuffi/Oasys/2nd_Oasys_School/SRW" workspace_units="2">
 	<nodes>
 		<node id="0" name="Undulator" position="(-91.0, 340.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" title="U2.5" version="" />
-		<node id="1" name="Plane Mirror" position="(16.0, 258.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_plane_mirror.OWSRWPlaneMirror" title="M1V" version="" />
+		<node id="1" name="Plane Mirror" position="(33.0, 215.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_plane_mirror.OWSRWPlaneMirror" title="M1V (with Reflectivity)" version="" />
 		<node id="2" name="Elliptical Mirror" position="(139.0, 260.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" title="M2V" version="" />
 		<node id="3" name="Elliptical Mirror" position="(348.0, 28.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" title="M3H" version="" />
 		<node id="4" name="Aperture" position="(470.0, 264.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_aperture.OWSRWAperture" title="BDAV (Coherent)" version="" />
@@ -35,41 +35,43 @@
 		<node id="31" name="Screen" position="(1402.0, 580.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" title="Focus Position" version="" />
 		<node id="32" name="SRW Reflectivity Generator" position="(-62.0, 145.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_reflectivity_generator.OWReflectivityGenerator" title="SRW Reflectivity Generator" version="" />
 		<node id="33" name="F1F2" position="(-150.0, 65.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xf1f2.OWxf1f2" title="F1F2" version="" />
+		<node id="34" name="Plane Mirror" position="(38.0, 340.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_plane_mirror.OWSRWPlaneMirror" title="M1V (No Reflectivity)" version="" />
 	</nodes>
 	<links>
-		<link enabled="true" id="0" sink_channel="SRWData" sink_node_id="2" source_channel="SRWData" source_node_id="1" />
-		<link enabled="false" id="1" sink_channel="SRWData" sink_node_id="6" source_channel="SRWData" source_node_id="0" />
-		<link enabled="true" id="2" sink_channel="SRWData" sink_node_id="7" source_channel="SRWData" source_node_id="5" />
-		<link enabled="true" id="3" sink_channel="Oasys PreProcessorData" sink_node_id="9" source_channel="PreProcessor_Data" source_node_id="10" />
-		<link enabled="true" id="4" sink_channel="SynedData" sink_node_id="0" source_channel="SynedData" source_node_id="12" />
-		<link enabled="true" id="5" sink_channel="SRWData" sink_node_id="4" source_channel="SRWData" source_node_id="13" />
-		<link enabled="true" id="6" sink_channel="SRWData" sink_node_id="1" source_channel="SRWData" source_node_id="0" />
-		<link enabled="true" id="7" sink_channel="Oasys PreProcessorData" sink_node_id="8" source_channel="PreProcessor_Data" source_node_id="14" />
-		<link enabled="true" id="8" sink_channel="ExchangeData" sink_node_id="16" source_channel="xrayserver_data" source_node_id="15" />
-		<link enabled="true" id="9" sink_channel="ExchangeData" sink_node_id="17" source_channel="xrayserver_data" source_node_id="15" />
-		<link enabled="false" id="10" sink_channel="SRWData" sink_node_id="16" source_channel="SRWData" source_node_id="2" />
-		<link enabled="true" id="11" sink_channel="SRWData" sink_node_id="17" source_channel="SRWData" source_node_id="16" />
-		<link enabled="true" id="12" sink_channel="SRWData" sink_node_id="3" source_channel="SRWData" source_node_id="17" />
-		<link enabled="true" id="13" sink_channel="SRWData" sink_node_id="20" source_channel="SRWData" source_node_id="18" />
-		<link enabled="true" id="14" sink_channel="SRWData" sink_node_id="19" source_channel="SRWData" source_node_id="20" />
-		<link enabled="true" id="15" sink_channel="SRWData" sink_node_id="21" source_channel="SRWData" source_node_id="19" />
-		<link enabled="true" id="16" sink_channel="SRWData" sink_node_id="18" source_channel="SRWData" source_node_id="7" />
-		<link enabled="true" id="17" sink_channel="SRWData" sink_node_id="22" source_channel="SRWData" source_node_id="2" />
-		<link enabled="true" id="18" sink_channel="SRWData" sink_node_id="13" source_channel="SRWData" source_node_id="22" />
-		<link enabled="true" id="19" sink_channel="SRWData" sink_node_id="23" source_channel="SRWData" source_node_id="3" />
-		<link enabled="true" id="20" sink_channel="SRWData" sink_node_id="24" source_channel="SRWData" source_node_id="4" />
-		<link enabled="true" id="21" sink_channel="SRWData" sink_node_id="26" source_channel="SRWData" source_node_id="4" />
-		<link enabled="true" id="22" sink_channel="SRWData" sink_node_id="27" source_channel="SRWData" source_node_id="4" />
-		<link enabled="true" id="23" sink_channel="SRWData" sink_node_id="5" source_channel="SRWData" source_node_id="26" />
-		<link enabled="true" id="24" sink_channel="SRWData" sink_node_id="30" source_channel="SRWData" source_node_id="28" />
-		<link enabled="true" id="25" sink_channel="SRWData" sink_node_id="29" source_channel="SRWData" source_node_id="30" />
-		<link enabled="true" id="26" sink_channel="SRWData" sink_node_id="31" source_channel="SRWData" source_node_id="29" />
-		<link enabled="true" id="27" sink_channel="PreProcessor Data #1" sink_node_id="28" source_channel="PreProcessor_Data" source_node_id="8" />
-		<link enabled="true" id="28" sink_channel="PreProcessor Data #1" sink_node_id="29" source_channel="PreProcessor_Data" source_node_id="9" />
-		<link enabled="true" id="29" sink_channel="SRWData" sink_node_id="28" source_channel="SRWData" source_node_id="7" />
-		<link enabled="true" id="30" sink_channel="SRWData" sink_node_id="11" source_channel="SRWData" source_node_id="21" />
-		<link enabled="true" id="31" sink_channel="Reflectivity (Total/Unpol.)" sink_node_id="32" source_channel="xoppy_data" source_node_id="33" />
-		<link enabled="true" id="32" sink_channel="PreProcessor Data #1" sink_node_id="1" source_channel="Reflectivity Data" source_node_id="32" />
+		<link enabled="false" id="0" sink_channel="SRWData" sink_node_id="6" source_channel="SRWData" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="SRWData" sink_node_id="7" source_channel="SRWData" source_node_id="5" />
+		<link enabled="true" id="2" sink_channel="Oasys PreProcessorData" sink_node_id="9" source_channel="PreProcessor_Data" source_node_id="10" />
+		<link enabled="true" id="3" sink_channel="SynedData" sink_node_id="0" source_channel="SynedData" source_node_id="12" />
+		<link enabled="true" id="4" sink_channel="SRWData" sink_node_id="4" source_channel="SRWData" source_node_id="13" />
+		<link enabled="true" id="5" sink_channel="SRWData" sink_node_id="1" source_channel="SRWData" source_node_id="0" />
+		<link enabled="true" id="6" sink_channel="Oasys PreProcessorData" sink_node_id="8" source_channel="PreProcessor_Data" source_node_id="14" />
+		<link enabled="true" id="7" sink_channel="ExchangeData" sink_node_id="16" source_channel="xrayserver_data" source_node_id="15" />
+		<link enabled="true" id="8" sink_channel="ExchangeData" sink_node_id="17" source_channel="xrayserver_data" source_node_id="15" />
+		<link enabled="false" id="9" sink_channel="SRWData" sink_node_id="16" source_channel="SRWData" source_node_id="2" />
+		<link enabled="true" id="10" sink_channel="SRWData" sink_node_id="17" source_channel="SRWData" source_node_id="16" />
+		<link enabled="true" id="11" sink_channel="SRWData" sink_node_id="3" source_channel="SRWData" source_node_id="17" />
+		<link enabled="true" id="12" sink_channel="SRWData" sink_node_id="20" source_channel="SRWData" source_node_id="18" />
+		<link enabled="true" id="13" sink_channel="SRWData" sink_node_id="19" source_channel="SRWData" source_node_id="20" />
+		<link enabled="true" id="14" sink_channel="SRWData" sink_node_id="21" source_channel="SRWData" source_node_id="19" />
+		<link enabled="true" id="15" sink_channel="SRWData" sink_node_id="18" source_channel="SRWData" source_node_id="7" />
+		<link enabled="true" id="16" sink_channel="SRWData" sink_node_id="22" source_channel="SRWData" source_node_id="2" />
+		<link enabled="true" id="17" sink_channel="SRWData" sink_node_id="13" source_channel="SRWData" source_node_id="22" />
+		<link enabled="true" id="18" sink_channel="SRWData" sink_node_id="23" source_channel="SRWData" source_node_id="3" />
+		<link enabled="true" id="19" sink_channel="SRWData" sink_node_id="24" source_channel="SRWData" source_node_id="4" />
+		<link enabled="true" id="20" sink_channel="SRWData" sink_node_id="26" source_channel="SRWData" source_node_id="4" />
+		<link enabled="true" id="21" sink_channel="SRWData" sink_node_id="27" source_channel="SRWData" source_node_id="4" />
+		<link enabled="true" id="22" sink_channel="SRWData" sink_node_id="5" source_channel="SRWData" source_node_id="26" />
+		<link enabled="true" id="23" sink_channel="SRWData" sink_node_id="30" source_channel="SRWData" source_node_id="28" />
+		<link enabled="true" id="24" sink_channel="SRWData" sink_node_id="29" source_channel="SRWData" source_node_id="30" />
+		<link enabled="true" id="25" sink_channel="SRWData" sink_node_id="31" source_channel="SRWData" source_node_id="29" />
+		<link enabled="true" id="26" sink_channel="PreProcessor Data #1" sink_node_id="28" source_channel="PreProcessor_Data" source_node_id="8" />
+		<link enabled="true" id="27" sink_channel="PreProcessor Data #1" sink_node_id="29" source_channel="PreProcessor_Data" source_node_id="9" />
+		<link enabled="true" id="28" sink_channel="SRWData" sink_node_id="28" source_channel="SRWData" source_node_id="7" />
+		<link enabled="true" id="29" sink_channel="SRWData" sink_node_id="11" source_channel="SRWData" source_node_id="21" />
+		<link enabled="true" id="30" sink_channel="Reflectivity (Total/Unpol.)" sink_node_id="32" source_channel="xoppy_data" source_node_id="33" />
+		<link enabled="true" id="31" sink_channel="PreProcessor Data #1" sink_node_id="1" source_channel="Reflectivity Data" source_node_id="32" />
+		<link enabled="true" id="32" sink_channel="SRWData" sink_node_id="34" source_channel="SRWData" source_node_id="0" />
+		<link enabled="true" id="33" sink_channel="SRWData" sink_node_id="2" source_channel="SRWData" source_node_id="34" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -188,25 +190,25 @@ b25fZmFjdG9yX2F0X3Jlc2l6aW5ncT9HP/DMzMzMzM1YNgAAAG9lX3ZlcnRpY2FsX3Jlc29sdXRp
 b25fbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ3FARz/wAAAAAAAAWBUAAABvcmllbnRh
 dGlvbl9hemltdXRoYWxxQUsAWAEAAABwcUJHAAAAAAAAAABYAQAAAHFxQ0cAAAAAAAAAAFgLAAAA
 cmFuZ2VfeF9tYXhxREsyWAsAAAByYW5nZV94X21pbnFFSs7///9YCwAAAHJhbmdlX3lfbWF4cUZL
-MlgLAAAAcmFuZ2VfeV9taW5xR0rO////WBYAAAByZWZsZWN0aXZpdHlfYW5nbGVfZW5kcUhHP3R6
-4UeuFHtYHQAAAHJlZmxlY3Rpdml0eV9hbmdsZV9zY2FsZV90eXBlcUlLAFgYAAAAcmVmbGVjdGl2
-aXR5X2FuZ2xlX3N0YXJ0cUpjbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxS2NudW1weQpk
-dHlwZQpxTFgCAAAAZjhxTUsASwGHcU5ScU8oSwNYAQAAADxxUE5OTkr/////Sv////9LAHRxUWJD
-CPyp8dJNYmA/cVKGcVNScVRYGgAAAHJlZmxlY3Rpdml0eV9hbmdsZXNfbnVtYmVycVVNLAFYHgAA
-AHJlZmxlY3Rpdml0eV9jb21wb25lbnRzX251bWJlcnFWSwBYFgAAAHJlZmxlY3Rpdml0eV9kYXRh
-X2ZpbGVxV1gTAAAAUHRfcmVmbGVjdGl2aXR5LmRhdHFYWBwAAAByZWZsZWN0aXZpdHlfZW5lcmdp
-ZXNfbnVtYmVycVlLAVgXAAAAcmVmbGVjdGl2aXR5X2VuZXJneV9lbmRxWkdA2GoAAAAAAFgeAAAA
-cmVmbGVjdGl2aXR5X2VuZXJneV9zY2FsZV90eXBlcVtLAFgZAAAAcmVmbGVjdGl2aXR5X2VuZXJn
-eV9zdGFydHFcR0DYagAAAAAAWBIAAAByZWZsZWN0aXZpdHlfdmFsdWVxXUc/7rhR64UeuFgKAAAA
-cm90YXRpb25feHFeRwAAAAAAAAAAWAoAAAByb3RhdGlvbl95cV9HAAAAAAAAAABYDQAAAHNhZ2l0
-dGFsX3NpemVxYEc/hHrhR64Ue1gTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXFhY1B5UXQ1LnNpcApf
-dW5waWNrbGVfdHlwZQpxYlgMAAAAUHlRdDUuUXRDb3JlcWNYCgAAAFFCeXRlQXJyYXlxZENCAdnQ
-ywADAAAAAAp4AAAALgAAD58AAAL/AAAKeAAAAEQAAA+fAAAC/wAAAAACAAAAD/AAAAp4AAAARAAA
-D58AAAL/cWWFcWaHcWdScWhYBQAAAHNoYXBlcWlLAFgHAAAAc2hpZnRfeHFqRwAAAAAAAAAAWAcA
-AABzaGlmdF95cWtHAAAAAAAAAABYDQAAAHN1cmZhY2Vfc2hhcGVxbEsAWA8AAAB0YW5nZW50aWFs
-X3NpemVxbUc/2ZmZmZmZmlgJAAAAdXNlX3JhbmdlcW5LAFgiAAAAdmVydGljYWxfcG9zaXRpb25f
-b2ZfbWlycm9yX2NlbnRlcnFvRwAAAAAAAAAAWAkAAAB2aWV3X3R5cGVxcEsBWAwAAAB3ZWlnaHRf
-cGhhc2VxcUsAdS4=
+MlgLAAAAcmFuZ2VfeV9taW5xR0rO////WBYAAAByZWZsZWN0aXZpdHlfYW5nbGVfZW5kcUhjbnVt
+cHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxSWNudW1weQpkdHlwZQpxSlgCAAAAZjhxS0sASwGH
+cUxScU0oSwNYAQAAADxxTk5OTkr/////Sv////9LAHRxT2JDCHsUrkfhenQ/cVCGcVFScVJYHQAA
+AHJlZmxlY3Rpdml0eV9hbmdsZV9zY2FsZV90eXBlcVNLAFgYAAAAcmVmbGVjdGl2aXR5X2FuZ2xl
+X3N0YXJ0cVRoSWhNQwj8qfHSTWJgP3FVhnFWUnFXWBoAAAByZWZsZWN0aXZpdHlfYW5nbGVzX251
+bWJlcnFYTSwBWB4AAAByZWZsZWN0aXZpdHlfY29tcG9uZW50c19udW1iZXJxWUsAWBYAAAByZWZs
+ZWN0aXZpdHlfZGF0YV9maWxlcVpYEwAAAFB0X3JlZmxlY3Rpdml0eS5kYXRxW1gcAAAAcmVmbGVj
+dGl2aXR5X2VuZXJnaWVzX251bWJlcnFcTdAHWBcAAAByZWZsZWN0aXZpdHlfZW5lcmd5X2VuZHFd
+R0DZZAAAAAAAWB4AAAByZWZsZWN0aXZpdHlfZW5lcmd5X3NjYWxlX3R5cGVxXksAWBkAAAByZWZs
+ZWN0aXZpdHlfZW5lcmd5X3N0YXJ0cV9HQNdwAAAAAABYEgAAAHJlZmxlY3Rpdml0eV92YWx1ZXFg
+Rz/uuFHrhR64WAoAAAByb3RhdGlvbl94cWFHAAAAAAAAAABYCgAAAHJvdGF0aW9uX3lxYkcAAAAA
+AAAAAFgNAAAAc2FnaXR0YWxfc2l6ZXFjRz+EeuFHrhR7WBMAAABzYXZlZFdpZGdldEdlb21ldHJ5
+cWRjUHlRdDUuc2lwCl91bnBpY2tsZV90eXBlCnFlWAwAAABQeVF0NS5RdENvcmVxZlgKAAAAUUJ5
+dGVBcnJheXFnQ0IB2dDLAAMAAAAACrUAAAAYAAAP3AAAAukAAAq1AAAALgAAD9wAAALpAAAAAAAA
+AAAP8AAACrUAAAAuAAAP3AAAAulxaIVxaYdxalJxa1gFAAAAc2hhcGVxbEsAWAcAAABzaGlmdF94
+cW1HAAAAAAAAAABYBwAAAHNoaWZ0X3lxbkcAAAAAAAAAAFgNAAAAc3VyZmFjZV9zaGFwZXFvSwBY
+DwAAAHRhbmdlbnRpYWxfc2l6ZXFwRz/ZmZmZmZmaWAkAAAB1c2VfcmFuZ2VxcUsAWCIAAAB2ZXJ0
+aWNhbF9wb3NpdGlvbl9vZl9taXJyb3JfY2VudGVycXJHAAAAAAAAAABYCQAAAHZpZXdfdHlwZXFz
+SwFYDAAAAHdlaWdodF9waGFzZXF0SwB1Lg==
 </properties>
 		<properties format="pickle" node_id="2">gAN9cQAoWBMAAABhZGRfYWNjZXB0YW5jZV9zbGl0cQFLAFgPAAAAYW5nbGVfYXppbXV0aGFscQJH
 QGaAAAAAAABYDAAAAGFuZ2xlX3JhZGlhbHEDR0BWdtkWhysCWCoAAABkaXN0YW5jZV9mcm9tX2Zp
@@ -2087,13 +2089,102 @@ AALocQ2FcQ6HcQ9ScRB1Lg==
 </properties>
 		<properties format="pickle" node_id="33">gAN9cQAoWAkAAABDQUxDVUxBVEVxAUsJWAcAAABERU5TSVRZcQJHP/AAAAAAAABYCgAAAERFU0NS
 SVBUT1JxA1gCAAAAUHRxBFgMAAAARFVNUF9UT19GSUxFcQVLAFgJAAAARklMRV9OQU1FcQZYCAAA
-AGYxZjIuZGF0cQdYBAAAAEdSSURxCEsCWAcAAABHUklERU5EcQlHQNhqAAAAAABYBQAAAEdSSURO
-cQpLZFgJAAAAR1JJRFNUQVJUcQtHQNhqAAAAAABYCAAAAE1BVF9GTEFHcQxLAFgFAAAAUk9VR0hx
-DUdAAAAAAAAAAFgGAAAAVEhFVEExcQ5HQAAAAAAAAABYBgAAAFRIRVRBMnEPR0AUAAAAAAAAWAkA
-AABUSEVUQUdSSURxEEsBWAYAAABUSEVUQU5xEU0sAVgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXES
-Y1B5UXQ1LnNpcApfdW5waWNrbGVfdHlwZQpxE1gMAAAAUHlRdDUuUXRDb3JlcRRYCgAAAFFCeXRl
-QXJyYXlxFUNCAdnQywADAAAAAADMAAAAFwAABfMAAALoAAAAzAAAAC0AAAXzAAAC6AAAAAAAAAAA
-D/AAAADMAAAALQAABfMAAALocRaFcReHcRhScRlYCQAAAHZpZXdfdHlwZXEaSwF1Lg==
+AGYxZjIuZGF0cQdYBAAAAEdSSURxCEsBWAcAAABHUklERU5EcQlHQNlkAAAAAABYBQAAAEdSSURO
+cQpN0AdYCQAAAEdSSURTVEFSVHELR0DXcAAAAAAAWAgAAABNQVRfRkxBR3EMSwBYBQAAAFJPVUdI
+cQ1HQAAAAAAAAABYBgAAAFRIRVRBMXEOR0AAAAAAAAAAWAYAAABUSEVUQTJxD0dAFAAAAAAAAFgJ
+AAAAVEhFVEFHUklEcRBLAVgGAAAAVEhFVEFOcRFNLAFYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
+EmNQeVF0NS5zaXAKX3VucGlja2xlX3R5cGUKcRNYDAAAAFB5UXQ1LlF0Q29yZXEUWAoAAABRQnl0
+ZUFycmF5cRVDQgHZ0MsAAwAAAAAAzAAAABcAAAXzAAAC6AAAAMwAAAAtAAAF8wAAAugAAAAAAAAA
+AA/wAAAAzAAAAC0AAAXzAAAC6HEWhXEXh3EYUnEZWAkAAAB2aWV3X3R5cGVxGksBdS4=
+</properties>
+		<properties format="pickle" node_id="34">gAN9cQAoWBMAAABhZGRfYWNjZXB0YW5jZV9zbGl0cQFLAFgPAAAAYW5nbGVfYXppbXV0aGFscQJH
+AAAAAAAAAABYDAAAAGFuZ2xlX3JhZGlhbHEDR0BWdtkWhysCWDcAAABkcmlmdF9hZnRlcl9vcmll
+bnRhdGlvbl9vZl90aGVfaG9yaXpvbnRhbF9iYXNlX3ZlY3Rvcl94cQRHAAAAAAAAAABYNwAAAGRy
+aWZ0X2FmdGVyX29yaWVudGF0aW9uX29mX3RoZV9ob3Jpem9udGFsX2Jhc2VfdmVjdG9yX3lxBUcA
+AAAAAAAAAFg7AAAAZHJpZnRfYWZ0ZXJfb3JpZW50YXRpb25fb2ZfdGhlX291dHB1dF9vcHRpY2Fs
+X2F4aXNfdmVjdG9yX3hxBkcAAAAAAAAAAFg7AAAAZHJpZnRfYWZ0ZXJfb3JpZW50YXRpb25fb2Zf
+dGhlX291dHB1dF9vcHRpY2FsX2F4aXNfdmVjdG9yX3lxB0cAAAAAAAAAAFg7AAAAZHJpZnRfYWZ0
+ZXJfb3JpZW50YXRpb25fb2ZfdGhlX291dHB1dF9vcHRpY2FsX2F4aXNfdmVjdG9yX3pxCEcAAAAA
+AAAAAFg8AAAAZHJpZnRfYWxsb3dfc2VtaWFuYWx5dGljYWxfdHJlYXRtZW50X29mX3F1YWRyYXRp
+Y19waGFzZV90ZXJtcQlLAVgjAAAAZHJpZnRfYXV0b19yZXNpemVfYWZ0ZXJfcHJvcGFnYXRpb25x
+CksAWCQAAABkcmlmdF9hdXRvX3Jlc2l6ZV9iZWZvcmVfcHJvcGFnYXRpb25xC0sAWEMAAABkcmlm
+dF9iZWZvcmVfYWxsb3dfc2VtaWFuYWx5dGljYWxfdHJlYXRtZW50X29mX3F1YWRyYXRpY19waGFz
+ZV90ZXJtcQxLAVgqAAAAZHJpZnRfYmVmb3JlX2F1dG9fcmVzaXplX2FmdGVyX3Byb3BhZ2F0aW9u
+cQ1LAFgrAAAAZHJpZnRfYmVmb3JlX2F1dG9fcmVzaXplX2JlZm9yZV9wcm9wYWdhdGlvbnEOSwBY
+NgAAAGRyaWZ0X2JlZm9yZV9kb19hbnlfcmVzaXppbmdfb25fZm91cmllcl9zaWRlX3VzaW5nX2Zm
+dHEPSwBYPQAAAGRyaWZ0X2JlZm9yZV9ob3Jpem9udGFsX3JhbmdlX21vZGlmaWNhdGlvbl9mYWN0
+b3JfYXRfcmVzaXppbmdxEEc/8AAAAAAAAFhCAAAAZHJpZnRfYmVmb3JlX2hvcml6b250YWxfcmVz
+b2x1dGlvbl9tb2RpZmljYXRpb25fZmFjdG9yX2F0X3Jlc2l6aW5ncRFHP/AAAAAAAABYQQAAAGRy
+aWZ0X2JlZm9yZV9uZXdfaG9yaXpvbnRhbF93YXZlZnJvbnRfY2VudGVyX3Bvc2l0aW9uX2FmdGVy
+X3NoaWZ0cRJLAFg/AAAAZHJpZnRfYmVmb3JlX25ld192ZXJ0aWNhbF93YXZlZnJvbnRfY2VudGVy
+X3Bvc2l0aW9uX2FmdGVyX3NoaWZ0cRNLAFg4AAAAZHJpZnRfYmVmb3JlX29yaWVudGF0aW9uX29m
+X3RoZV9ob3Jpem9udGFsX2Jhc2VfdmVjdG9yX3hxFEcAAAAAAAAAAFg4AAAAZHJpZnRfYmVmb3Jl
+X29yaWVudGF0aW9uX29mX3RoZV9ob3Jpem9udGFsX2Jhc2VfdmVjdG9yX3lxFUcAAAAAAAAAAFg8
+AAAAZHJpZnRfYmVmb3JlX29yaWVudGF0aW9uX29mX3RoZV9vdXRwdXRfb3B0aWNhbF9heGlzX3Zl
+Y3Rvcl94cRZHAAAAAAAAAABYPAAAAGRyaWZ0X2JlZm9yZV9vcmllbnRhdGlvbl9vZl90aGVfb3V0
+cHV0X29wdGljYWxfYXhpc192ZWN0b3JfeXEXRwAAAAAAAAAAWDwAAABkcmlmdF9iZWZvcmVfb3Jp
+ZW50YXRpb25fb2ZfdGhlX291dHB1dF9vcHRpY2FsX2F4aXNfdmVjdG9yX3pxGEcAAAAAAAAAAFhB
+AAAAZHJpZnRfYmVmb3JlX3JlbGF0aXZlX3ByZWNpc2lvbl9mb3JfcHJvcGFnYXRpb25fd2l0aF9h
+dXRvcmVzaXppbmdxGUc/8AAAAAAAAFg0AAAAZHJpZnRfYmVmb3JlX3R5cGVfb2Zfd2F2ZWZyb250
+X3NoaWZ0X2JlZm9yZV9yZXNpemluZ3EaSwBYOwAAAGRyaWZ0X2JlZm9yZV92ZXJ0aWNhbF9yYW5n
+ZV9tb2RpZmljYXRpb25fZmFjdG9yX2F0X3Jlc2l6aW5ncRtHP/AAAAAAAABYQAAAAGRyaWZ0X2Jl
+Zm9yZV92ZXJ0aWNhbF9yZXNvbHV0aW9uX21vZGlmaWNhdGlvbl9mYWN0b3JfYXRfcmVzaXppbmdx
+HEc/8AAAAAAAAFgvAAAAZHJpZnRfZG9fYW55X3Jlc2l6aW5nX29uX2ZvdXJpZXJfc2lkZV91c2lu
+Z19mZnRxHUsAWDYAAABkcmlmdF9ob3Jpem9udGFsX3JhbmdlX21vZGlmaWNhdGlvbl9mYWN0b3Jf
+YXRfcmVzaXppbmdxHkc/8AAAAAAAAFg7AAAAZHJpZnRfaG9yaXpvbnRhbF9yZXNvbHV0aW9uX21v
+ZGlmaWNhdGlvbl9mYWN0b3JfYXRfcmVzaXppbmdxH0c/8AAAAAAAAFg6AAAAZHJpZnRfbmV3X2hv
+cml6b250YWxfd2F2ZWZyb250X2NlbnRlcl9wb3NpdGlvbl9hZnRlcl9zaGlmdHEgSwBYOAAAAGRy
+aWZ0X25ld192ZXJ0aWNhbF93YXZlZnJvbnRfY2VudGVyX3Bvc2l0aW9uX2FmdGVyX3NoaWZ0cSFL
+AFg6AAAAZHJpZnRfcmVsYXRpdmVfcHJlY2lzaW9uX2Zvcl9wcm9wYWdhdGlvbl93aXRoX2F1dG9y
+ZXNpemluZ3EiRz/wAAAAAAAAWC0AAABkcmlmdF90eXBlX29mX3dhdmVmcm9udF9zaGlmdF9iZWZv
+cmVfcmVzaXppbmdxI0sAWDQAAABkcmlmdF92ZXJ0aWNhbF9yYW5nZV9tb2RpZmljYXRpb25fZmFj
+dG9yX2F0X3Jlc2l6aW5ncSRHP/AAAAAAAABYOQAAAGRyaWZ0X3ZlcnRpY2FsX3Jlc29sdXRpb25f
+bW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ3ElRz/wAAAAAAAAWBAAAABoYXNfZGlzcGxh
+Y2VtZW50cSZLAFgSAAAAaGFzX2hlaWdodF9wcm9maWxlcSdLAFgQAAAAaGFzX3JlZmxlY3Rpdml0
+eXEoSwBYIAAAAGhlaWdodF9hbXBsaWZpY2F0aW9uX2NvZWZmaWNpZW50cSlHP/AAAAAAAABYGAAA
+AGhlaWdodF9wcm9maWxlX2RhdGFfZmlsZXEqWAoAAABtaXJyb3IuZGF0cStYIgAAAGhlaWdodF9w
+cm9maWxlX2RhdGFfZmlsZV9kaW1lbnNpb25xLEsAWCQAAABob3Jpem9udGFsX3Bvc2l0aW9uX29m
+X21pcnJvcl9jZW50ZXJxLUcAAAAAAAAAAFgYAAAAaW52ZXJ0X3RhbmdlbnRfY29tcG9uZW50cS5L
+AFgQAAAAaXNfYXV0b21hdGljX3J1bnEviFg5AAAAb2VfYWxsb3dfc2VtaWFuYWx5dGljYWxfdHJl
+YXRtZW50X29mX3F1YWRyYXRpY19waGFzZV90ZXJtcTBLAFggAAAAb2VfYXV0b19yZXNpemVfYWZ0
+ZXJfcHJvcGFnYXRpb25xMUsAWCEAAABvZV9hdXRvX3Jlc2l6ZV9iZWZvcmVfcHJvcGFnYXRpb25x
+MksAWCwAAABvZV9kb19hbnlfcmVzaXppbmdfb25fZm91cmllcl9zaWRlX3VzaW5nX2ZmdHEzSwBY
+MwAAAG9lX2hvcml6b250YWxfcmFuZ2VfbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ3E0
+Rz/wzMzMzMzNWDgAAABvZV9ob3Jpem9udGFsX3Jlc29sdXRpb25fbW9kaWZpY2F0aW9uX2ZhY3Rv
+cl9hdF9yZXNpemluZ3E1Rz/wAAAAAAAAWDcAAABvZV9uZXdfaG9yaXpvbnRhbF93YXZlZnJvbnRf
+Y2VudGVyX3Bvc2l0aW9uX2FmdGVyX3NoaWZ0cTZLAFg1AAAAb2VfbmV3X3ZlcnRpY2FsX3dhdmVm
+cm9udF9jZW50ZXJfcG9zaXRpb25fYWZ0ZXJfc2hpZnRxN0sAWC4AAABvZV9vcmllbnRhdGlvbl9v
+Zl90aGVfaG9yaXpvbnRhbF9iYXNlX3ZlY3Rvcl94cThHAAAAAAAAAABYLgAAAG9lX29yaWVudGF0
+aW9uX29mX3RoZV9ob3Jpem9udGFsX2Jhc2VfdmVjdG9yX3lxOUcAAAAAAAAAAFgyAAAAb2Vfb3Jp
+ZW50YXRpb25fb2ZfdGhlX291dHB1dF9vcHRpY2FsX2F4aXNfdmVjdG9yX3hxOkcAAAAAAAAAAFgy
+AAAAb2Vfb3JpZW50YXRpb25fb2ZfdGhlX291dHB1dF9vcHRpY2FsX2F4aXNfdmVjdG9yX3lxO0cA
+AAAAAAAAAFgyAAAAb2Vfb3JpZW50YXRpb25fb2ZfdGhlX291dHB1dF9vcHRpY2FsX2F4aXNfdmVj
+dG9yX3pxPEcAAAAAAAAAAFg3AAAAb2VfcmVsYXRpdmVfcHJlY2lzaW9uX2Zvcl9wcm9wYWdhdGlv
+bl93aXRoX2F1dG9yZXNpemluZ3E9Rz/wAAAAAAAAWCoAAABvZV90eXBlX29mX3dhdmVmcm9udF9z
+aGlmdF9iZWZvcmVfcmVzaXppbmdxPksAWDEAAABvZV92ZXJ0aWNhbF9yYW5nZV9tb2RpZmljYXRp
+b25fZmFjdG9yX2F0X3Jlc2l6aW5ncT9HP/DMzMzMzM1YNgAAAG9lX3ZlcnRpY2FsX3Jlc29sdXRp
+b25fbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ3FARz/wAAAAAAAAWBUAAABvcmllbnRh
+dGlvbl9hemltdXRoYWxxQUsAWAEAAABwcUJHAAAAAAAAAABYAQAAAHFxQ0cAAAAAAAAAAFgLAAAA
+cmFuZ2VfeF9tYXhxREsyWAsAAAByYW5nZV94X21pbnFFSs7///9YCwAAAHJhbmdlX3lfbWF4cUZL
+MlgLAAAAcmFuZ2VfeV9taW5xR0rO////WBYAAAByZWZsZWN0aXZpdHlfYW5nbGVfZW5kcUhHP3R6
+4UeuFHtYHQAAAHJlZmxlY3Rpdml0eV9hbmdsZV9zY2FsZV90eXBlcUlLAFgYAAAAcmVmbGVjdGl2
+aXR5X2FuZ2xlX3N0YXJ0cUpjbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxS2NudW1weQpk
+dHlwZQpxTFgCAAAAZjhxTUsASwGHcU5ScU8oSwNYAQAAADxxUE5OTkr/////Sv////9LAHRxUWJD
+CPyp8dJNYmA/cVKGcVNScVRYGgAAAHJlZmxlY3Rpdml0eV9hbmdsZXNfbnVtYmVycVVNLAFYHgAA
+AHJlZmxlY3Rpdml0eV9jb21wb25lbnRzX251bWJlcnFWSwBYFgAAAHJlZmxlY3Rpdml0eV9kYXRh
+X2ZpbGVxV1gTAAAAUHRfcmVmbGVjdGl2aXR5LmRhdHFYWBwAAAByZWZsZWN0aXZpdHlfZW5lcmdp
+ZXNfbnVtYmVycVlLAVgXAAAAcmVmbGVjdGl2aXR5X2VuZXJneV9lbmRxWkdA2GoAAAAAAFgeAAAA
+cmVmbGVjdGl2aXR5X2VuZXJneV9zY2FsZV90eXBlcVtLAFgZAAAAcmVmbGVjdGl2aXR5X2VuZXJn
+eV9zdGFydHFcR0DYagAAAAAAWBIAAAByZWZsZWN0aXZpdHlfdmFsdWVxXUc/7rhR64UeuFgKAAAA
+cm90YXRpb25feHFeRwAAAAAAAAAAWAoAAAByb3RhdGlvbl95cV9HAAAAAAAAAABYDQAAAHNhZ2l0
+dGFsX3NpemVxYEc/hHrhR64Ue1gTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXFhY1B5UXQ1LnNpcApf
+dW5waWNrbGVfdHlwZQpxYlgMAAAAUHlRdDUuUXRDb3JlcWNYCgAAAFFCeXRlQXJyYXlxZENCAdnQ
+ywADAAAAAAgCAAAAFwAADSkAAALoAAAKeAAAAEQAAA+fAAAC/wAAAAACAAAAD/AAAAgCAAAALQAA
+DSkAAALocWWFcWaHcWdScWhYBQAAAHNoYXBlcWlLAFgHAAAAc2hpZnRfeHFqRwAAAAAAAAAAWAcA
+AABzaGlmdF95cWtHAAAAAAAAAABYDQAAAHN1cmZhY2Vfc2hhcGVxbEsAWA8AAAB0YW5nZW50aWFs
+X3NpemVxbUc/2ZmZmZmZmlgJAAAAdXNlX3JhbmdlcW5LAFgiAAAAdmVydGljYWxfcG9zaXRpb25f
+b2ZfbWlycm9yX2NlbnRlcnFvRwAAAAAAAAAAWAkAAAB2aWV3X3R5cGVxcEsBWAwAAAB3ZWlnaHRf
+cGhhc2VxcUsAdS4=
 </properties>
 	</node_properties>
 </scheme>
