@@ -12,7 +12,7 @@
 		<node id="8" name="Undulator Power Density" position="(281.0, 616.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_power_density.OWundulator_power_density" title="Undulator Power Density" version="" />
 		<node id="9" name="POWER" position="(582.0, 816.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xpower.OWxpower" title="POWER" version="" />
 		<node id="10" name="Undulator Spectrum" position="(345.0, 724.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" title="Undulator Spectrum (10 x 10 mm2)" version="" />
-		<node id="11" name="Undulator Radiation" position="(346.0, 924.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" title="Undulator Radiation" version="" />
+		<node id="11" name="Undulator Radiation" position="(350.0, 928.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" title="Undulator Radiation" version="" />
 		<node id="12" name="CRYSTAL" position="(210.0, 1062.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xcrystal.OWxcrystal" title="CRYSTAL" version="" />
 		<node id="13" name="Python Script" position="(423.0, 1063.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Python Script (two crystal reflections)" version="" />
 		<node id="14" name="F1F2" position="(209.0, 1161.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xf1f2.OWxf1f2" title="F1F2" version="" />
@@ -247,17 +247,17 @@ dmlld190eXBlcTBLAXUu
 SHECRz7HfPRHZRlfWBcAAABFTEVDVFJPTkJFQU1ESVZFUkdFTkNFVnEDRz65KnNxEORUWBEAAABF
 TEVDVFJPTkJFQU1TSVpFSHEERz7vCbCC6iqsWBEAAABFTEVDVFJPTkJFQU1TSVpFVnEFRz7PCbCC
 6iqsWA8AAABFTEVDVFJPTkNVUlJFTlRxBkc/yZmZmZmZmlgOAAAARUxFQ1RST05FTkVSR1lxB0dA
-GAAAAAAAAFgUAAAARUxFQ1RST05FTkVSR1lTUFJFQURxCEc/Vpwjt5UtI1gEAAAAR0FQSHEJRz+E
-euFHrhR7WAQAAABHQVBWcQpHP4R64UeuFHtYDAAAAEg1X0ZJTEVfRFVNUHELSwBYDgAAAEhBUk1P
+GAAAAAAAAFgUAAAARUxFQ1RST05FTkVSR1lTUFJFQURxCEc/Vpwjt5UtI1gEAAAAR0FQSHEJRz9Q
+Yk3S8an8WAQAAABHQVBWcQpHP1BiTdLxqfxYDAAAAEg1X0ZJTEVfRFVNUHELSwBYDgAAAEhBUk1P
 TklDTlVNQkVScQxLAVgLAAAASFNMSVRQT0lOVFNxDUspWAIAAABLSHEORwAAAAAAAAAAWAYAAABL
 UEhBU0VxD0cAAAAAAAAAAFgCAAAAS1ZxEEc//c3irDIiklgGAAAATUVUSE9EcRFLAlgIAAAATlBF
 UklPRFNxEkdAZwAAAAAAAFgIAAAAUEVSSU9ESURxE0c/mZmZmZmZmlgPAAAAUEhPVE9ORU5FUkdZ
-TUFYcRRHQM5GAAAAAABYDwAAAFBIT1RPTkVORVJHWU1JTnEVR0DLWAAAAAAAWBIAAABQSE9UT05F
-TkVSR1lQT0lOVFNxFkseWAwAAABTRVRSRVNPTkFOQ0VxF0sBWA0AAABVU0VFTUlUVEFOQ0VTcRhL
+TUFYcRRHQNOhAAAAAABYDwAAAFBIT1RPTkVORVJHWU1JTnEVR0DSwAAAAAAAWBIAAABQSE9UT05F
+TkVSR1lQT0lOVFNxFkseWAwAAABTRVRSRVNPTkFOQ0VxF0sAWA0AAABVU0VFTUlUVEFOQ0VTcRhL
 AVgLAAAAVlNMSVRQT0lOVFNxGUspWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cRpjUHlRdDUuc2lw
 Cl91bnBpY2tsZV90eXBlCnEbWAwAAABQeVF0NS5RdENvcmVxHFgKAAAAUUJ5dGVBcnJheXEdQ0IB
-2dDLAAMAAAAAANMAAAB7AAAF+gAAA0wAAAA8AAAAUgAABWMAAAMNAAAAAAIAAAAFoAAAANMAAACR
-AAAF+gAAA0xxHoVxH4dxIFJxIVgJAAAAdmlld190eXBlcSJLAXUu
+2dDLAAMAAAAAADwAAAA8AAAFYwAAAw0AAAA8AAAAUgAABWMAAAMNAAAAAAIAAAAFoAAAADwAAABS
+AAAFYwAAAw1xHoVxH4dxIFJxIVgJAAAAdmlld190eXBlcSJLAXUu
 </properties>
 		<properties format="pickle" node_id="12">gAN9cQAoWAoAAABBTklTT1RST1BZcQFLAFgPAAAAQVNZTU1FVFJZX0FOR0xFcQJHAAAAAAAAAABY
 EAAAAENSWVNUQUxfTUFURVJJQUxxA0sgWAMAAABDVVRxBFgXAAAAMiAtMSAtMSA7IDEgMSAxIDsg
@@ -318,8 +318,8 @@ AAAAAAAAAFgLAAAAUk9VR0hORVNTX09xFUcAAAAAAAAAAFgLAAAAUk9VR0hORVNTX1NxFkcAAAAA
 AAAAAFgFAAAAVEhFVEFxF0cAAAAAAAAAAFgJAAAAVEhFVEFfRU5EcRhHQAAAAAAAAABYCgAAAFRI
 RVRBX0ZMQUdxGUsBWAcAAABUSEVUQV9OcRpLZFgJAAAAVEhJQ0tORVNTcRtHQEkAAAAAAABYEwAA
 AHNhdmVkV2lkZ2V0R2VvbWV0cnlxHGNQeVF0NS5zaXAKX3VucGlja2xlX3R5cGUKcR1YDAAAAFB5
-UXQ1LlF0Q29yZXEeWAoAAABRQnl0ZUFycmF5cR9DQgHZ0MsAAwAAAAAApwAAAEkAAAXOAAADGgAA
-AKcAAABfAAAFzgAAAxoAAAAAAAAAAAWgAAAApwAAAF8AAAXOAAADGnEghXEhh3EiUnEjWAkAAAB2
+UXQ1LlF0Q29yZXEeWAoAAABRQnl0ZUFycmF5cR9DQgHZ0MsAAwAAAAAAPAAAAD0AAAVjAAADDgAA
+ADwAAABTAAAFYwAAAw4AAAAAAgAAAAWgAAAAPAAAAFMAAAVjAAADDnEghXEhh3EiUnEjWAkAAAB2
 aWV3X3R5cGVxJEsBdS4=
 </properties>
 		<properties format="pickle" node_id="16">gAN9cQAoWAcAAABDUllTVEFMcQFLAlgLAAAAREVMVEFMQU1CREFxAkc/hHrhR64Ue1gIAAAAREVM
