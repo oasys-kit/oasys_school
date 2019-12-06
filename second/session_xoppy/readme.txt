@@ -8,7 +8,7 @@ A full collection of examples for XOPPY is described in the file:
 
 tutorial_xoppy.pdf
 
-and the Oasys workspave is: 
+and the Oasys workspace is: 
 
 tutorial_xoppy.ows
  
