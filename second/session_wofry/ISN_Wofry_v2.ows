@@ -32,7 +32,7 @@
 		<node id="28" name="Undulator" position="(-64.0, 1563.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" title="Undulator" version="" />
 		<node id="29" name="To Wofry Wavefront 2D" position="(29.0, 1565.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_wavefront_to_wofry.OWToWofryWavefront2d" title="To Wofry Wavefront 2D" version="" />
 		<node id="30" name="Wavefront 2D to 1D" position="(110.0, 799.0)" project_name="OASYS1-WOFRY" qualified_name="orangecontrib.wofry.widgets.tools.ow_2D_to_1D.OW2Dto1D" title="Wavefront 2D to 1D" version="" />
-		<node id="31" name="Wavefront 2D to 1D" position="(248.0, 1049.0)" project_name="OASYS1-WOFRY" qualified_name="orangecontrib.wofry.widgets.tools.ow_2D_to_1D.OW2Dto1D" title="Wavefront 2D to 1D (1)" version="" />
+		<node id="31" name="Wavefront 2D to 1D" position="(3.0, 938.0)" project_name="OASYS1-WOFRY" qualified_name="orangecontrib.wofry.widgets.tools.ow_2D_to_1D.OW2Dto1D" title="Wavefront 2D to 1D (1)" version="" />
 		<node id="32" name="Undulator" position="(-32.0, 802.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" title="Undulator (1)" version="" />
 		<node id="33" name="To Wofry Wavefront 2D" position="(41.0, 801.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_wavefront_to_wofry.OWToWofryWavefront2d" title="To Wofry Wavefront 2D (1)" version="" />
 		<node id="34" name="To Wofry Wavefront 2D" position="(-91.0, 938.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_wavefront_to_wofry.OWToWofryWavefront2d" title="To Wofry Wavefront 2D (2)" version="" />
@@ -48,6 +48,7 @@
 		<node id="44" name="Screen 1D" position="(987.0, 929.0)" project_name="OASYS1-WOFRY" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen_1d.OWWOScreen1D" title="Screen 1D (focal spot) (2)" version="" />
 		<node id="45" name="Slit 1D" position="(578.0, 937.0)" project_name="OASYS1-WOFRY" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" title="Slit 1D (KBV size) (1)" version="" />
 		<node id="46" name="Slit 1D" position="(302.0, 937.0)" project_name="OASYS1-WOFRY" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" title="Slit 1D V (1)" version="" />
+		<node id="47" name="Wavefront 2D to 1D" position="(288.0, 1135.0)" project_name="OASYS1-WOFRY" qualified_name="orangecontrib.wofry.widgets.tools.ow_2D_to_1D.OW2Dto1D" title="Wavefront 2D to 1D (2)" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="GenericWavefront2D" sink_node_id="5" source_channel="GenericWavefront2D" source_node_id="4" />
@@ -90,6 +91,7 @@
 		<link enabled="true" id="37" sink_channel="GenericWavefront1D" sink_node_id="43" source_channel="GenericWavefront1D" source_node_id="45" />
 		<link enabled="true" id="38" sink_channel="GenericWavefront1D" sink_node_id="42" source_channel="GenericWavefront1D" source_node_id="31" />
 		<link enabled="true" id="39" sink_channel="GenericWavefront2D" sink_node_id="10" source_channel="GenericWavefront2D" source_node_id="29" />
+		<link enabled="true" id="40" sink_channel="GenericWavefront2D" sink_node_id="47" source_channel="GenericWavefront2D" source_node_id="5" />
 	</links>
 	<annotations>
 		<arrow end="(171.0, -146.0)" fill="#662D91" id="0" start="(172.0, -85.0)" />
@@ -117,7 +119,7 @@
 		<text font-family="Helvetica" font-size="16" id="22" rect="(-180.0, 756.0, 150.0, 24.0)">Horizontal</text>
 		<text font-family="Helvetica" font-size="16" id="23" rect="(-174.0, 891.0, 150.0, 24.0)">Vertical</text>
 		<text font-family="Helvetica" font-size="16" id="24" rect="(-132.0, 336.0, 150.0, 24.0)">WOFRY 1D simulations</text>
-		<text font-family="Helvetica" font-size="16" id="25" rect="(-202.0, 1047.0, 150.0, 60.0)">WOFRY 2D: Oversimplified beamline</text>
+		<text font-family="Helvetica" font-size="16" id="25" rect="(-199.0, 1028.0, 150.0, 60.0)">WOFRY 2D: Oversimplified beamline</text>
 		<text font-family="Helvetica" font-size="16" id="26" rect="(-195.0, 1261.0, 150.0, 24.0)">WOFRY 2D </text>
 	</annotations>
 	<thumbnail />
@@ -179,7 +181,7 @@ dXNzaWFuX21vZGVfaHEISwBYDwAAAGdhdXNzaWFuX21vZGVfdnEJSwBYEAAAAGdhdXNzaWFuX3Np
 Z21hX2hxCkc/UGJN0vGp/FgQAAAAZ2F1c3NpYW5fc2lnbWFfdnELRz9QYk3S8an8WBQAAABpbml0
 aWFsaXplX2FtcGxpdHVkZXEMSwBYDwAAAGluaXRpYWxpemVfZnJvbXENSwBYFgAAAGlzX2F1dG9t
 YXRpY19leGVjdXRpb25xDolYDAAAAGtpbmRfb2Zfd2F2ZXEPSwFYEgAAAG51bWJlcl9vZl9wb2lu
-dHNfaHEQTSwBWBIAAABudW1iZXJfb2ZfcG9pbnRzX3ZxEU0sAVgFAAAAcGhhc2VxEkcAAAAAAAAA
+dHNfaHEQTfQBWBIAAABudW1iZXJfb2ZfcG9pbnRzX3ZxEU30AVgFAAAAcGhhc2VxEkcAAAAAAAAA
 AFgGAAAAcmFkaXVzcRNHv8ZmZmZmZmZYDAAAAHJhbmdlX2Zyb21faHEUR78kcn3L3bmEWAwAAABy
 YW5nZV9mcm9tX3ZxFUe/JHJ9y925hFgKAAAAcmFuZ2VfdG9faHEWRz8kcn3L3bmEWAoAAAByYW5n
 ZV90b192cRdHPyRyfcvduYRYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxGGNQeVF0NS5zaXAKX3Vu
@@ -270,8 +272,9 @@ c2F2ZWRXaWRnZXRHZW9tZXRyeXEyY1B5UXQ1LnNpcApfdW5waWNrbGVfdHlwZQpxM1gMAAAAUHlR
 dDUuUXRDb3JlcTRYCgAAAFFCeXRlQXJyYXlxNUNCAdnQywADAAAAAABIAAAAFwAAAhMAAAMaAAAA
 SAAAAC0AAAITAAADGgAAAAACAAAABaAAAABIAAAALQAAAhMAAAMacTaFcTeHcThScTlYCwAAAHNv
 dXJjZV9uYW1lcTpYEwAAAFVuZHVsYXRvciBJU04gMjVLZVZxO1gPAAAAc3luZWRfZmlsZV9uYW1l
-cTxYGAAAAElTTl91bmR1bGF0b3JfMjVLZVYuanNvbnE9WBIAAAB0eXBlX29mX3Byb3BlcnRpZXNx
-PksAdS4=
+cTxYZQAAAGh0dHA6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL29hc3lzLWtpdC9vYXN5c19z
+Y2hvb2wvbWFzdGVyL3NlY29uZC9jb21tb24vSVNOX3VuZHVsYXRvcl8yNUtlVi5qc29ucT1YEgAA
+AHR5cGVfb2ZfcHJvcGVydGllc3E+SwB1Lg==
 </properties>
 		<properties format="pickle" node_id="9">gAN9cQAoWA8AAABhbmdsZV9hemltdXRoYWxxAUcAAAAAAAAAAFgMAAAAYW5nbGVfcmFkaWFscQJH
 AAAAAAAAAABYEwAAAGNhbGN1bGF0ZV9ncmlkX29ubHlxA0sBWAYAAABoZWlnaHRxBEcAAAAAAAAA
@@ -819,6 +822,12 @@ AAAALQAABW8AAALtcRCFcRGHcRJScRNYCAAAAHNjYWxlZF9OcRRLZFgIAAAAc2NhbGVkX1JxFUdA
 j0AAAAAAAFgLAAAAc2NhbGVkX1JtYXhxFkdAWQAAAAAAAFgOAAAAc2NhbGVkX2d1ZXNzX1JxF4hY
 BQAAAHNoYXBlcRhLAFgNAAAAc3VyZmFjZV9zaGFwZXEZSwBYDgAAAHZlcnRpY2FsX3NoaWZ0cRpH
 AAAAAAAAAABYCQAAAHZpZXdfdHlwZXEbSwF1Lg==
+</properties>
+		<properties format="pickle" node_id="47">gAN9cQAoWBYAAABpc19hdXRvbWF0aWNfZXhlY3V0aW9ucQGIWBMAAABzYXZlZFdpZGdldEdlb21l
+dHJ5cQJjUHlRdDUuc2lwCl91bnBpY2tsZV90eXBlCnEDWAwAAABQeVF0NS5RdENvcmVxBFgKAAAA
+UUJ5dGVBcnJheXEFQ0IB2dDLAAMAAAAAAEgAAAAXAAAFbwAAAu0AAABIAAAALQAABW8AAALtAAAA
+AAIAAAAFoAAAAEgAAAAtAAAFbwAAAu1xBoVxB4dxCFJxCVgMAAAAc2VjdGlvbl9heGlzcQpLAFgS
+AAAAc2VjdGlvbl9jb29yZGluYXRlcQtHAAAAAAAAAABYCQAAAHZpZXdfdHlwZXEMSwF1Lg==
 </properties>
 	</node_properties>
 </scheme>

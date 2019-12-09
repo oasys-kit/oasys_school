@@ -11,9 +11,9 @@
 		<node id="7" name="Undulator Light Source" position="(-252.0, 173.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source" version="" />
 		<node id="8" name="DABAM Height Profile" position="(486.0, 596.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.tools.ow_dabam_height_profile.OWdabam_height_profile" title="KBV" version="" />
 		<node id="9" name="Full Undulator" position="(-124.0, 430.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_undulator_full.UndulatorFull" title="U2.5" version="" />
-		<node id="10" name="Bragg" position="(-35.0, 817.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_bragg.OWxsh_bragg" title="Bragg" version="" />
-		<node id="11" name="Plane Crystal" position="(43.0, 748.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_crystal.PlaneCrystal" title="DCM1" version="" />
-		<node id="12" name="Plane Crystal" position="(133.0, 747.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_crystal.PlaneCrystal" title="DCM2" version="" />
+		<node id="10" name="Bragg" position="(-16.0, 502.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_bragg.OWxsh_bragg" title="Bragg" version="" />
+		<node id="11" name="Plane Crystal" position="(70.0, 435.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_crystal.PlaneCrystal" title="DCM1" version="" />
+		<node id="12" name="Plane Crystal" position="(160.0, 434.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_crystal.PlaneCrystal" title="DCM2" version="" />
 		<node id="13" name="Info" position="(978.0, 62.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
 		<node id="14" name="PreRefl" position="(-128.0, 773.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" title="PreRefl" version="" />
 		<node id="15" name="Ellipsoid Mirror" position="(183.0, 13.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="M3H Si" version="" />
@@ -21,7 +21,7 @@
 		<node id="17" name="Ellipsoid Mirror" position="(769.0, 18.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="KBH" version="" />
 		<node id="18" name="Plot XY" position="(911.0, 66.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Focus Position (1)" version="" />
 		<node id="19" name="Undulator Gaussian" position="(-142.0, 62.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_undulator_gaussian.UndulatorGaussian" title="Undulator Gaussian (5th Harmonic: 25000eV)" version="" />
-		<node id="20" name="Undulator Spectrum" position="(-125.0, 529.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" title="Undulator Spectrum" version="" />
+		<node id="20" name="Undulator Spectrum" position="(-123.0, 578.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" title="Undulator Spectrum" version="" />
 		<node id="21" name="Ellipsoid Mirror" position="(662.0, 459.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="KBV (1)" version="" />
 		<node id="22" name="Ellipsoid Mirror" position="(812.0, 459.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="KBH (1)" version="" />
 		<node id="23" name="Plot XY" position="(941.0, 460.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Focus Position (1) (1)" version="" />
@@ -48,6 +48,7 @@
 		<link enabled="false" id="18" sink_channel="Input Beam" sink_node_id="21" source_channel="Beam" source_node_id="2" />
 		<link enabled="true" id="19" sink_channel="PreProcessor Data #1" sink_node_id="21" source_channel="PreProcessor_Data" source_node_id="4" />
 		<link enabled="true" id="20" sink_channel="PreProcessor Data #1" sink_node_id="22" source_channel="PreProcessor_Data" source_node_id="5" />
+		<link enabled="true" id="21" sink_channel="Input Beam" sink_node_id="11" source_channel="Beam" source_node_id="9" />
 	</links>
 	<annotations>
 		<arrow end="(171.0, -146.0)" fill="#662D91" id="0" start="(172.0, -85.0)" />
@@ -69,13 +70,15 @@
 		<text font-family="Helvetica" font-size="16" id="16" rect="(942.0, 224.0, 150.0, 24.0)">220.4m</text>
 		<text font-family="Helvetica" font-size="16" id="17" rect="(96.0, 215.0, 150.0, 24.0)">29m</text>
 		<text font-family="Helvetica" font-size="16" id="18" rect="(186.0, -150.0, 150.0, 24.0)">35m</text>
+		<text font-family="Helvetica" font-size="16" id="19" rect="(-161.0, -144.0, 150.0, 24.0)">Horizontal</text>
+		<text font-family="Helvetica" font-size="16" id="20" rect="(-144.0, 194.0, 150.0, 24.0)">Vertical</text>
 	</annotations>
 	<thumbnail />
 	<node_properties>
 		<properties format="pickle" node_id="0">gAN9cQAoWAoAAABhYnNvcnB0aW9ucQFLAFgFAAAAYWxwaGFxAkcAAAAAAAAAAFgXAAAAYW5nbGVf
 b2ZfbWFqYXhfYW5kX3BvbGVxA0cAAAAAAAAAAFgRAAAAYW5nbGVfc3ByZWFkX0ZXSE1xBEcAAAAA
 AAAAAFgRAAAAYW5nbGVzX3Jlc3BlY3RfdG9xBUcAAAAAAAAAAFgOAAAAYXBlcnR1cmVfc2hhcGVx
-BksAWAoAAABhcGVydHVyaW5ncQdLAFgOAAAAYXN5bW1ldHJpY19jdXRxCEsAWBsAAABhdHRlbnVh
+BksAWAoAAABhcGVydHVyaW5ncQdLAVgOAAAAYXN5bW1ldHJpY19jdXRxCEsAWBsAAABhdHRlbnVh
 dGlvbl9pbl9pbWFnZV9tZWRpdW1xCUcAAAAAAAAAAFgcAAAAYXR0ZW51YXRpb25faW5fb2JqZWN0
 X21lZGl1bXEKRwAAAAAAAAAAWBcAAABiZWxvd19vbnRvX2JyYWdnX3BsYW5lc3ELSv////9YEwAA
 AGNvbmljX2NvZWZmaWNpZW50XzBxDGNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnENY251
@@ -318,7 +321,7 @@ X2FuZ2xlc3H3SwB1Lg==
 		<properties format="pickle" node_id="2">gAN9cQAoWAoAAABhYnNvcnB0aW9ucQFLAFgFAAAAYWxwaGFxAkcAAAAAAAAAAFgXAAAAYW5nbGVf
 b2ZfbWFqYXhfYW5kX3BvbGVxA0cAAAAAAAAAAFgRAAAAYW5nbGVfc3ByZWFkX0ZXSE1xBEcAAAAA
 AAAAAFgRAAAAYW5nbGVzX3Jlc3BlY3RfdG9xBUcAAAAAAAAAAFgOAAAAYXBlcnR1cmVfc2hhcGVx
-BksAWAoAAABhcGVydHVyaW5ncQdLAFgOAAAAYXN5bW1ldHJpY19jdXRxCEsAWBsAAABhdHRlbnVh
+BksAWAoAAABhcGVydHVyaW5ncQdLAVgOAAAAYXN5bW1ldHJpY19jdXRxCEsAWBsAAABhdHRlbnVh
 dGlvbl9pbl9pbWFnZV9tZWRpdW1xCUcAAAAAAAAAAFgcAAAAYXR0ZW51YXRpb25faW5fb2JqZWN0
 X21lZGl1bXEKRwAAAAAAAAAAWBcAAABiZWxvd19vbnRvX2JyYWdnX3BsYW5lc3ELSv////9YEwAA
 AGNvbmljX2NvZWZmaWNpZW50XzBxDGNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnENY251
@@ -638,21 +641,22 @@ X2Vycm9yX3RvcStHP/gAAAAAAABYBgAAAHN0ZXBfeHEsRz9QYk3S8an8WA8AAAB1c2VfdW5kZXRy
 ZW5kZWRxLUsAdS4=
 </properties>
 		<properties format="pickle" node_id="9">gAN9cQAoWAEAAABLcQFHP/3N4qwyIpJYDwAAAGNvZGVfdW5kdWxfcGhvdHECSwBYCAAAAGNvaGVy
-ZW50cQNLAFgHAAAAY3VycmVudHEERz/JmZmZmZmaWAcAAABkZWx0YV9lcQVHAAAAAAAAAABYDQAA
+ZW50cQNLAFgHAAAAY3VycmVudHEERz/JmZmZmZmaWAcAAABkZWx0YV9lcQVHQC4AAAAAAABYDQAA
 AGVuZXJneV9pbl9HZVZxBkdAGAAAAAAAAFgJAAAAZmxhZ19zaXplcQdLAVgIAAAAaGFybW9uaWNx
-CEdAFAAAAAAAAFgQAAAAaXNfYXV0b21hdGljX3J1bnEJiFgNAAAAbWF4YW5nbGVfdXJhZHEKSw9Y
-BAAAAG5nX2VxC0sLWAQAAABuZ19qcQxLFFgEAAAAbmdfcHENSwtYBAAAAG5nX3RxDkszWA4AAABu
-dW1iZXJfb2ZfcmF5c3EPTVDDWA0AAABwZXJpb2RfbGVuZ3RocRBHP5mZmZmZmZpYDgAAAHBlcmlv
-ZHNfbnVtYmVycRFHQGcAAAAAAABYDQAAAHBob3Rvbl9lbmVyZ3lxEkdAxIIAAAAAAFgTAAAAc2F2
-ZWRXaWRnZXRHZW9tZXRyeXETY1B5UXQ1LnNpcApfdW5waWNrbGVfdHlwZQpxFFgMAAAAUHlRdDUu
-UXRDb3JlcRVYCgAAAFFCeXRlQXJyYXlxFkNCAdnQywADAAAAAABIAAAAFwAABW8AAALoAAAASAAA
-AC0AAAVvAAAC6AAAAAACAAAABaAAAABIAAAALQAABW8AAALocReFcRiHcRlScRpYBAAAAHNlZWRx
-G0qHYmcAWBAAAABzZXRfYXRfcmVzb25hbmNlcRxLAVgSAAAAc2lnbWFfZGl2ZXJnZW5jZV94cR1j
-bnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxHmNudW1weQpkdHlwZQpxH1gCAAAAZjhxIEsA
-SwGHcSFScSIoSwNYAQAAADxxI05OTkr/////Sv////9LAHRxJGJDCF8ZZUf0fMc+cSWGcSZScSdY
-EgAAAHNpZ21hX2RpdmVyZ2VuY2VfenEoaB5oIkMIVOQQcXMquT5xKYZxKlJxK1gHAAAAc2lnbWFf
-eHEsaB5oIkMIrCrqgrAJ7z5xLYZxLlJxL1gHAAAAc2lnbWFfenEwaB5oIkMIrCrqgrAJzz5xMYZx
-MlJxM1gUAAAAdXNlX2VtaXR0YW5jZXNfY29tYm9xNEsBWAkAAAB2aWV3X3R5cGVxNUsAdS4=
+CEdAFAAAAAAAAFgQAAAAaXNfYXV0b21hdGljX3J1bnEJiFgNAAAAbWF4YW5nbGVfdXJhZHEKR0Ak
+AAAAAAAAWAQAAABuZ19lcQtLC1gEAAAAbmdfanEMSxRYBAAAAG5nX3BxDUsLWAQAAABuZ190cQ5L
+M1gOAAAAbnVtYmVyX29mX3JheXNxD01Qw1gNAAAAcGVyaW9kX2xlbmd0aHEQRz+ZmZmZmZmaWA4A
+AABwZXJpb2RzX251bWJlcnERR0BnAAAAAAAAWA0AAABwaG90b25fZW5lcmd5cRJHQNhqAAAAAABY
+EwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxE2NQeVF0NS5zaXAKX3VucGlja2xlX3R5cGUKcRRYDAAA
+AFB5UXQ1LlF0Q29yZXEVWAoAAABRQnl0ZUFycmF5cRZDQgHZ0MsAAwAAAAAASAAAABcAAAVvAAAC
+6AAAAEgAAAAtAAAFbwAAAugAAAAAAgAAAAWgAAAASAAAAC0AAAVvAAAC6HEXhXEYh3EZUnEaWAQA
+AABzZWVkcRtKh2JnAFgQAAAAc2V0X2F0X3Jlc29uYW5jZXEcSwBYEgAAAHNpZ21hX2RpdmVyZ2Vu
+Y2VfeHEdY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcR5jbnVtcHkKZHR5cGUKcR9YAgAA
+AGY4cSBLAEsBh3EhUnEiKEsDWAEAAAA8cSNOTk5K/////0r/////SwB0cSRiQwhfGWVH9HzHPnEl
+hnEmUnEnWBIAAABzaWdtYV9kaXZlcmdlbmNlX3pxKGgeaCJDCFTkEHFzKrk+cSmGcSpScStYBwAA
+AHNpZ21hX3hxLGgeaCJDCKwq6oKwCe8+cS2GcS5ScS9YBwAAAHNpZ21hX3pxMGgeaCJDCKwq6oKw
+Cc8+cTGGcTJScTNYFAAAAHVzZV9lbWl0dGFuY2VzX2NvbWJvcTRLAVgJAAAAdmlld190eXBlcTVL
+AHUu
 </properties>
 		<properties format="pickle" node_id="10">gAN9cQAoWAoAAABERVNDUklQVE9ScQFLAFgFAAAARV9NQVhxAkdA2WQAAAAAAFgFAAAARV9NSU5x
 A0dA13AAAAAAAFgGAAAARV9TVEVQcQRHP/AAAAAAAABYDgAAAEhfTUlMTEVSX0lOREVYcQVLAVgO
@@ -723,7 +727,7 @@ X2FuZ2xlX3Jlc3BlY3RfdG9fbm9ybWFsX3R5cGVxgUsAWBAAAABpc19hdXRvbWF0aWNfcnVucYKI
 WAsAAABpc19jeWxpbmRlcnGDSwFYCwAAAGlzX2luZmluaXRlcYRLAFgSAAAAam9oYW5zc29uX2dl
 b21ldHJ5cYVLAFgQAAAAam9oYW5zc29uX3JhZGl1c3GGRwAAAAAAAAAAWBAAAABtX2xheWVyX3Rp
 Y2tuZXNzcYdHAAAAAAAAAABYDwAAAG1pcnJvcl9tb3ZlbWVudHGISwBYGAAAAG1pcnJvcl9vcmll
-bnRhdGlvbl9hbmdsZXGJSwFYIwAAAG1pcnJvcl9vcmllbnRhdGlvbl9hbmdsZV91c2VyX3ZhbHVl
+bnRhdGlvbl9hbmdsZXGJSwBYIwAAAG1pcnJvcl9vcmllbnRhdGlvbl9hbmdsZV91c2VyX3ZhbHVl
 cYpHAAAAAAAAAABYDAAAAG1pcnJvcl9zaGFwZXGLSwBYEgAAAG1tX21pcnJvcl9vZmZzZXRfeHGM
 RwAAAAAAAAAAWBIAAABtbV9taXJyb3Jfb2Zmc2V0X3lxjUcAAAAAAAAAAFgSAAAAbW1fbWlycm9y
 X29mZnNldF96cY5HAAAAAAAAAABYFAAAAG1tX21pcnJvcl9yb3RhdGlvbl94cY9HAAAAAAAAAABY
@@ -1311,7 +1315,7 @@ GV9YEgAAAHNpZ21hX2RpdmVyZ2VuY2VfenEQRz65KnNxEORUWAcAAABzaWdtYV94cRFHP45Pdl/Y
 raxYBwAAAHNpZ21hX3pxEkc/bk92X9itrFgQAAAAdW5kdWxhdG9yX2xlbmd0aHETR0ASZmZmZmZn
 WAkAAAB2aWV3X3R5cGVxFEsAdS4=
 </properties>
-		<properties format="pickle" node_id="20">gAN9cQAoWAgAAABESVNUQU5DRXEBR0AkAAAAAAAAWBcAAABFTEVDVFJPTkJFQU1ESVZFUkdFTkNF
+		<properties format="pickle" node_id="20">gAN9cQAoWAgAAABESVNUQU5DRXEBR0A8AAAAAAAAWBcAAABFTEVDVFJPTkJFQU1ESVZFUkdFTkNF
 SHECRz7HfPRHZRlfWBcAAABFTEVDVFJPTkJFQU1ESVZFUkdFTkNFVnEDRz65KnNxEORUWBEAAABF
 TEVDVFJPTkJFQU1TSVpFSHEERz7vCbCC6iqsWBEAAABFTEVDVFJPTkJFQU1TSVpFVnEFRz7PCbCC
 6iqsWA8AAABFTEVDVFJPTkNVUlJFTlRxBkc/yZmZmZmZmlgOAAAARUxFQ1RST05FTkVSR1lxB0dA
