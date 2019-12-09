@@ -94,5 +94,5 @@ This third day will is a full-day code camp for learning how to create new OASYS
 INSTRUCTORS
 ===========
 
-M Sanchez del Rio (ESRF), Luca Rebuffi (APS) and Xianbo Shi (APS).
+M Sanchez del Rio (LBNL), Luca Rebuffi (APS) and Xianbo Shi (APS).
 
