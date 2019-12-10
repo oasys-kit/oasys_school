@@ -59,11 +59,10 @@ else:
 
 from setuptools import find_packages, setup
 
-PACKAGES = find_packages(
-                         exclude = ('*.tests', '*.tests.*', 'tests.*', 'tests'),
-                         )
+PACKAGES = find_packages(exclude = ('*.tests', '*.tests.*', 'tests.*', 'tests'), )
 
-PACKAGE_DATA = {"orangecontrib.my_extension.shadow.widgets":["icons/*.png", "icons/*.jpg"],
+PACKAGE_DATA = {
+    "orangecontrib.my_extension.shadow.widgets.tools":["icons/*.png", "icons/*.jpg"],
 }
 
 NAMESPACE_PACAKGES = ["orangecontrib","orangecontrib.my_extension", "orangecontrib.my_extension.shadow", "orangecontrib.my_extension.shadow.widgets"]
@@ -71,7 +70,7 @@ NAMESPACE_PACAKGES = ["orangecontrib","orangecontrib.my_extension", "orangecontr
 ENTRY_POINTS = {
     'oasys.addons' : ("MY SHADOW = orangecontrib.my_extension.shadow", ),
     'oasys.widgets' : (
-        "MY SHADOW Widgets = orangecontrib.my_extension.shadow.widgets",
+        "My Shadow Tools = orangecontrib.my_extension.shadow.widgets.tools",
     ),
     #'oasys.menus' : ("myshadowmenu = orangecontrib.my_extension.shadow.menu",)
 }
@@ -98,11 +97,8 @@ if __name__ == '__main__':
               classifiers = CLASSIFIERS,
               packages = PACKAGES,
               package_data = PACKAGE_DATA,
-              #          py_modules = PY_MODULES,
               setup_requires = SETUP_REQUIRES,
               install_requires = INSTALL_REQUIRES,
-              #extras_require = EXTRAS_REQUIRE,
-              #dependency_links = DEPENDENCY_LINKS,
               entry_points = ENTRY_POINTS,
               namespace_packages=NAMESPACE_PACAKGES,
               include_package_data = True,
