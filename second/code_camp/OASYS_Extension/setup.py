@@ -72,7 +72,7 @@ ENTRY_POINTS = {
     'oasys.widgets' : (
         "My Shadow Tools = orangecontrib.my_extension.shadow.widgets.tools",
     ),
-    #'oasys.menus' : ("myshadowmenu = orangecontrib.my_extension.shadow.menu",)
+    'oasys.menus' : ("myshadowmenu = orangecontrib.my_extension.shadow.menu",)
 }
 
 if __name__ == '__main__':
