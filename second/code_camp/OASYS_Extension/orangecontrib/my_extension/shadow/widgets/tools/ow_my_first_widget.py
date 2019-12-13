@@ -3,6 +3,7 @@ from PyQt5.QtCore import QRect
 
 from orangewidget import gui
 from orangewidget.settings import Setting
+from orangewidget.widget import OWAction
 
 from oasys.widgets import widget
 import oasys.widgets.gui as oasysgui
@@ -55,6 +56,12 @@ class MyFirstWidget(widget.OWWidget):
         self.setMaximumHeight(self.geometry().height())
         self.setMaximumWidth(self.geometry().width())
 
+
+        self.runaction = OWAction("Run Action", self)
+        self.runaction.triggered.connect(self.run_action)
+        self.addAction(self.runaction)
+
+
         # CONTROL AREA
         self.controlArea.setFixedWidth(self.CONTROL_AREA_WIDTH)
 
@@ -94,12 +101,17 @@ class MyFirstWidget(widget.OWWidget):
 
         gui.button(general_options_box, self, "Run Action", callback=self.run_action, height=45)
 
+        self.call_callbacks()
 
         # MAIN AREA
         self.main_tabs = oasysgui.tabWidget(self.mainArea)
 
         plot_tab = oasysgui.createTabPage(self.main_tabs, "Plots")
         out_tab = oasysgui.createTabPage(self.main_tabs, "Output")
+
+    def call_callbacks(self):
+        self.set_field_3()
+        self.set_field_4()
 
     def set_text_area(self):
         self.notes = self.text_area.toPlainText()
@@ -109,13 +121,22 @@ class MyFirstWidget(widget.OWWidget):
 
     def run_action(self):
         if ConfirmDialog.confirmed(self):
-            self.send("my_output_data", None)
+            self.send("my_output_data", "HI! I am a newborn widget!")
 
     def set_field_3(self):
-        pass
+        self.field_1 = 1.0*(self.field_3 + 1)
 
     def set_field_4(self):
-        pass
+        self.field_2 = "Option " + str(self.field_4 + 1)
 
     def set_input(self, input_data):
         pass
+
+import sys
+
+if __name__ == "__main__":
+    a = QApplication(sys.argv)
+    ow = MyFirstWidget()
+    ow.show()
+    a.exec_()
+    ow.saveSettings()

@@ -5,8 +5,8 @@ NAME = "My Shadow Tools"
 
 DESCRIPTION = "Widgets for My Shadow"
 
-BACKGROUND = "#b8bcdb"
+BACKGROUND = "#FACC2E"
 
 ICON = "icons/tools.png"
 
-PRIORITY = 10000
+PRIORITY = 100.1
